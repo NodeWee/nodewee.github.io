@@ -1,0 +1,110 @@
+/*
+	style for nodewee.me
+*/
+body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,div,span{
+	margin:0;
+	padding:0;
+}body{
+	font:14px/21px Microsoft YaHei,Tahoma,Arial;
+	background:url(images/bg.png) #eceef0;
+	display:block;
+	cursor:default;
+	color:#444;
+	-webkit-font-smoothing:antialiased;
+}
+}h1,h2,h3{
+	font-weight:500;
+	text-shadow:0 1px 0 #EEE;
+}a{
+	color:#944;
+	text-decoration:none;
+}a:hover{
+	color:#F60;
+}img{
+	border:0;
+	width:auto;
+	height:auto;
+}ol,ul,li{
+	list-style:none;
+}
+
+header{
+	text-align: center;
+}
+
+header img{
+    width: 100px; height: 100px;
+    margin: 0 auto;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    -webkit-box-shadow:0px 0px 5px black;
+	-moz-box-shadow:0px 0px 5px black;
+}
+
+footer{
+	clear:both;
+	padding: 10px;
+	text-align: center;
+	border-top: dotted 1px #ccc;
+}
+
+
+div#nav{
+	clear:both;
+	display: block;
+	text-align: center;
+	margin: 20px;
+	font-size: 20px;
+}
+div#nav a{
+	text-align: center;
+	padding: 5px;	margin: 0;
+	background-color: #99f;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow:0px 0px 2px #99f;
+	-moz-box-shadow:0px 0px 2px #99f;
+}
+div#nav a span.name{
+	color: #fff;
+	font-size:larger;
+	padding: 2px;
+}
+div#nav a span.desc{
+	color:#ddd;
+	font-size: smaller;
+	padding: 2px;
+}
+
+div#nav a:hover{
+	background-color:#55f;
+}
+
+div#sns{
+	clear: both;
+	display: block;
+	text-align: center;
+	margin: 20px;
+	font-size: 12px;
+}
+div#sns a{
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+	background-color: #fcc;
+	color: #000;
+}
+
+div#sns a:hover{
+	background-color: #f99;
+}
+
+.gray, .gray a{
+	color:#999;
+}
+.gray a:hover{
+	color:#F60;
+}
