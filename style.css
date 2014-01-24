@@ -5,7 +5,7 @@ body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,div,span{
 	margin:0;
 	padding:0;
 }body{
-	font:14px/21px Microsoft YaHei,Tahoma,Arial;
+	font-family: Microsoft YaHei,Tahoma,Arial;
 	background:url(images/bg.png) #eceef0;
 	display:block;
 	cursor:default;
@@ -59,11 +59,14 @@ div.nav{
 	clear:both;
 	display: block;
 	text-align: center;
-	margin: 20px;
+	padding: 10px;
+	margin: 10px;
 }
 div.nav a{
 	text-align: center;
-	padding: 5px;	margin: 0;
+	vertical-align: middle;
+	padding: 10px;
+	font-size:24px;
 
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -73,36 +76,37 @@ div.nav a{
 }
 div.nav a span.name{
 	color: #fff;
-	font-size:larger;
 	padding: 2px;
+	font-size: 1em;
 }
 div.nav a span.desc{
 	color:#ddd;
-	font-size: smaller;
 	padding: 2px;
+	font-size: 0.5em;
 }
 
+
 div.share a {
-	font-size: 24px;
 	background-color: #99f;	
 }
-div.archive a{	
+div.archive a{
+	background-color: #bb9;
 	font-size: 18px;
-	background-color: #bb9;	
 }
 div.share a:hover{
 	background-color:#55f;
 }
 div.archive a:hover{
-	background-color:#bb5;
+	background-color:#bb3;
 }
+
 
 div#sns{
 	clear: both;
 	display: block;
 	text-align: center;
 	margin: 20px;
-	font-size: 16px;
+	font-size: 14px;
 }
 div#sns a{
 	text-align: center;
