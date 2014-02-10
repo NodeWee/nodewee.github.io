@@ -3,29 +3,37 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<meta name="author"content="NodeWee">
-	<meta name="description" content="NodeWee's Website" />
+	<meta name="description" content="About - NodeWee" />
 	<link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-	<title>NodeWee</title>
+	<title>About - NodeWee</title>
 </head>
 <body>
 	<header>
-		<img src="images/nodewee.png" title="NodeWee" />
+		<!-- <a href="about.html" title="关于"> --><img src="images/nodewee.png" alt="NodeWee" title="NodeWee" /><!-- </a> -->
 	</header>
 
-	<div class="nav share">
-		<a href="note"><span class=name>笔记</span><span class=desc>Note</span></a>
-		<a href="making"><span class=name>制作</span><span class=desc>Making</span></a>
-	</div>
-	<div class="nav archive">
-		<a href="quantified"><span class=name>量化</span><span class=desc>Quantified</span></a>
-		<a href="favorite-writing"><span class=name>存文</span><span class=desc>Fav.Wri.</span></a>
-	</div>
+	<div class="btnBig f20">
+		<a href="note/2014" class="blue"><span class=name>笔记</span><span class=desc>Note</span></a>
+		<a href="quantified" class="blue"><span class=name>量化</span><span class=desc>Quantified</span></a>
 
-	<div id=sns>
+		<!-- <a href="making"><span class=name>制作</span><span class=desc>Making</span></a> -->
+	</div>
+	<div class="btnBig f18">
+		<a href="keep/2014" class="yellow"><span class=name>转存</span><span class=desc>Keep</span></a>
+		<a href="favorite-writing" class="yellow"><span class=name>存文</span><span class=desc>Fav.Wrt.</span></a>
+	</div>
+		<!-- <a href=""><span class=name>足迹</span><span class=desc>Jiepang</span></a> -->
+		<!-- <a href="http://www.xiami.com/u/31684698/" class="yellow"><span class=name>听歌</span><span class=desc>Xiami</span></a> -->
+
+	<div id=sns class="btnSmall blue f12">
 		<a href="http://weibo.com/nodewee" class="weibo">微博</a>
 		<a href="http://www.douban.com/people/NodeWee" class="douban">豆瓣</a>
 		<a href="https://plus.google.com/102747701907725775663" class="googleplus">G+</a>
 		<a href="contact.html">QQ / 微信 / 邮箱</a>
+	</div>
+	<div class="btnSmall f12">
+		<a href="http://openspace101.com" class="yellow">101开放空间</a>
+		<a href="flinks.html" class="blue">友链</a>
 	</div>
 
 	<footer class=gray>
@@ -33,6 +41,18 @@
 		<div>Hosted with <a href="http://pages.github.com/">GitHub Pages</a>.</div>
 	</footer>
 
+
+	<div style="display:none;">
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-47411748-1', 'nodewee.me');
+			ga('send', 'pageview');
+		</script>
+	</div>
 
 </body>
 </html>

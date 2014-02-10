@@ -31,6 +31,7 @@ body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,div,span{
 header{
 	text-align: center;
 	padding: 10px;
+	font-weight: bold;
 }
 
 header img{
@@ -48,6 +49,7 @@ footer{
 	padding: 10px;
 	text-align: center;
 	border-top: dotted 1px #ccc;
+	font-size: 12px;
 }
 
 div{
@@ -55,18 +57,18 @@ div{
 	margin: 0 auto;
 }
 
-div.nav{
+div.btnBig{
 	clear:both;
 	display: block;
 	text-align: center;
 	padding: 10px;
-	margin: 10px;
+	margin: 0;
 }
-div.nav a{
+div.btnBig a{
 	text-align: center;
 	vertical-align: middle;
-	padding: 10px;
-	font-size:24px;
+	padding: 9px;
+	margin:0;
 
 	-moz-border-radius: 3px;
 	-webkit-border-radius: 3px;
@@ -74,50 +76,51 @@ div.nav a{
 	-webkit-box-shadow:0px 0px 2px #99f;
 	-moz-box-shadow:0px 0px 2px #99f;
 }
-div.nav a span.name{
+
+div.btnSmall{
+	clear: both;
+	display: block;
+	text-align: center;
+	padding: 10px;
+	margin: 0;
+	color:#333;
+}
+div.btnSmall a{
+	text-align: center;
+	padding: 5px;
+	margin: 0;
+	color: #333;
+}
+
+
+div.blue a, div a.blue {background-color: #99f;}
+div.blue a:hover, div a.blue:hover{background-color:#55f;}
+div.yellow a, div a.yellow{background-color: #bb9;}
+div.yellow a:hover, div a.yellow:hover{background-color:#bb3;}
+
+div.f12, div a.f12, div a.f12:hover{font-size: 12px;}
+div.f14, div a.f14, div a.f14:hover{font-size: 14px;}
+div.f16, div a.f16, div a.f16:hover{font-size: 16px;}
+div.f18, div a.f18, div a.f18:hover{font-size: 18px;}
+div.f20, div a.f20, div a.f20:hover{font-size: 20px;}
+
+
+div.btnBig a span.name{
 	color: #fff;
 	padding: 2px;
 	font-size: 1em;
 }
-div.nav a span.desc{
+div.btnBig a span.desc{
 	color:#ddd;
 	padding: 2px;
 	font-size: 0.5em;
 }
 
 
-div.share a {
-	background-color: #99f;	
-}
-div.archive a{
-	background-color: #bb9;
-	font-size: 18px;
-}
-div.share a:hover{
-	background-color:#55f;
-}
-div.archive a:hover{
-	background-color:#bb3;
-}
-
-
-div#sns{
-	clear: both;
-	display: block;
-	text-align: center;
-	margin: 20px;
-	font-size: 14px;
-}
-div#sns a{
-	text-align: center;
-	padding: 5px;
-	margin: 0;
-	background-color: #fcc;
-	color: #000;
-}
-
-div#sns a:hover{
-	background-color: #f99;
+div#flinks{clear:both; padding: 5px; margin: 0; text-align: center;}
+div#flinks a{
+	background-color: #ccf;
+	padding: 2px 5px 2px 5px;
 }
 
 .gray, .gray a{
