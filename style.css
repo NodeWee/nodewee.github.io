@@ -93,9 +93,11 @@ div.btnSmall a{
 }
 
 
-div.blue a, div a.blue {background-color: #99f;}
+div.blue a{background-color: #99f;}
+div.yellow a{background-color: #bb9;}
+div a.blue {background-color: #99f;}
+div a.yellow{background-color: #bb9;}
 div.blue a:hover, div a.blue:hover{background-color:#55f;}
-div.yellow a, div a.yellow{background-color: #bb9;}
 div.yellow a:hover, div a.yellow:hover{background-color:#bb3;}
 
 div.f12, div a.f12, div a.f12:hover{font-size: 12px;}
