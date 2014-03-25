@@ -5,10 +5,10 @@ body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,div,span{
 	margin:0;
 	padding:0;
 }body{
-	font-family: Microsoft YaHei,Tahoma,Arial;
-	background:url(images/bg.png) #eceef0;
+	font: normal 100% Helvetica, Arial, sans-serif, "Microsoft YaHei";
 	display:block;
 	cursor:default;
+	width:100%;
 	color:#444;
 	-webkit-font-smoothing:antialiased;
 }
@@ -35,7 +35,10 @@ header{
 }
 
 header img{
-    width: 100px; height: 100px;
+    width: 10%; 
+    max-width: 100px;
+    min-width: 50px;
+    height: auto;
     margin: 0 auto;
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
@@ -55,6 +58,10 @@ footer{
 div{
 	text-align: center;
 	margin: 0 auto;
+}
+
+.text-shadow{
+	text-shadow:#ccc 0px 0px 4px;
 }
 
 div.btnBig{
@@ -84,39 +91,26 @@ div.btnSmall{
 	padding: 10px;
 	margin: 0;
 	color:#333;
+	font-size: 1em;
 }
 div.btnSmall a{
 	text-align: center;
-	padding: 5px;
+	padding: 10px;
 	margin: 0;
 	color: #333;
+	font-size: 0.85em;
 }
 
 
-div.blue a{background-color: #99f;}
-div.yellow a{background-color: #bb9;}
-div a.blue {background-color: #99f;}
-div a.yellow{background-color: #bb9;}
-div.blue a:hover, div a.blue:hover{background-color:#55f;}
-div.yellow a:hover, div a.yellow:hover{background-color:#bb3;}
-
-div.f12, div a.f12, div a.f12:hover{font-size: 12px;}
-div.f14, div a.f14, div a.f14:hover{font-size: 14px;}
-div.f16, div a.f16, div a.f16:hover{font-size: 16px;}
-div.f18, div a.f18, div a.f18:hover{font-size: 18px;}
-div.f20, div a.f20, div a.f20:hover{font-size: 20px;}
-
-
-div.btnBig a span.name{
-	color: #fff;
-	padding: 2px;
-	font-size: 1em;
-}
-div.btnBig a span.desc{
-	color:#ddd;
-	padding: 2px;
-	font-size: 0.5em;
-}
+div.blue a{background-color: #bbf;}
+div.yellow a{background-color: #bfb;}
+div.black a{background-color: #444; color:#fff;}
+div a.blue {background-color: #bbf;}
+div a.yellow{background-color: #bfb;}
+div a.black{background-color: #444; color:#fff;}
+div.blue a:hover, div a.blue:hover{background-color:#88f;}
+div.yellow a:hover, div a.yellow:hover{background-color:#ac7;}
+div.black a:hover, div a.black:hover{background-color:#000;}
 
 
 div#flinks{clear:both; padding: 5px; margin: 0; text-align: center;}
