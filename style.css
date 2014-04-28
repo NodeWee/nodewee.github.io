@@ -10,6 +10,7 @@ body,h1,h2,h3,p,blockquote,dl,dt,dd,ul,ol,li,button,input,textarea,div,span{
 	cursor:default;
 	width:100%;
 	color:#444;
+	background-color: #9CCDD9;
 	-webkit-font-smoothing:antialiased;
 }
 }h1,h2,h3{
@@ -64,42 +65,49 @@ div{
 	text-shadow:#ccc 0px 0px 4px;
 }
 
-div.btnBig{
-	clear:both;
-	display: block;
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-}
-div.btnBig a{
-	text-align: center;
-	vertical-align: middle;
-	padding: 9px;
-	margin:0;
 
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	-webkit-box-shadow:0px 0px 2px #99f;
-	-moz-box-shadow:0px 0px 2px #99f;
+
+div.card{
+	width:600px;
+	height:350px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+div.card, div.card div{
+	color: #1A1A1A;
+	text-align: left;
 }
 
-div.btnSmall{
-	clear: both;
-	display: block;
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-	color:#333;
-	font-size: 1em;
+div.card a{
+	text-align: left;
+	color:#000; font-size: 14px; font-weight: bold;
+	font-family:"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei", SimSun, sans-serif;
 }
-div.btnSmall a{
-	text-align: center;
-	padding: 10px;
-	margin: 0;
-	color: #333;
-	font-size: 0.85em;
+div.card a:hover{color:#000;}
+
+
+div.incard-text{
+	margin-bottom:10px;
 }
+div.incard-text a{
+	text-align: left;
+	padding: 2px 5px 2px 5px;
+}
+
+div#card01{
+	background: no-repeat url(https://iy9kkw.by3301.livefilestore.com/y2pZ1qgMKGDtuZ6N77r9iN7R_q1mAhV1hGxp-NJQuIPuKag4QdpRDOdbDN0wakWvNhDXqqSB3NgsVdwy7OhdlyaNDozU7uBtqg_C7prfijJ2vQ/nc-01.png?psid=1);
+}
+div#card02{
+	background: no-repeat url(https://iy9kkw.bay.livefilestore.com/y2pxRenTMj0htyd6wQ7Jk1JGJrO9AsaLrf7ncoIWiRVgR_em0LpRzG3UaRGv_zzTK92NjPkfyVzvq4yetsOduPpvoCGAvUwewDAD46H3BJlbQc/nc-02.png?psid=1);
+}
+div#card03{
+	background: no-repeat url(https://iy9kkw.bay.livefilestore.com/y2pyjzydiYez2h1BDyhk9V7dM_iBLwAKlJpkRlKhnpBXtxas7Oi4XdLJdgz5co3J3mnOKujaWpZsa_xwzaaGZsLeExXrGECzZ_0pDMfqIysZss/nc-03.png?psid=1);
+}
+div#card04{
+	background: no-repeat url(https://iy9kkw.by3302.livefilestore.com/y2pIV5uz80HpZQNSzAiMJGA4Zhartgk5riLmp_TFGPxlNS3X82NTOaOr8kjUQmM2VunIn9n8nSquAxRPIfW86_X87IhDbKI_wrXnqsiHteqvPA/nc-04.png?psid=1);
+}
+
+
 
 
 div.blue a{background-color: #bbf;}
