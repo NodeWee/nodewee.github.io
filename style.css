@@ -80,10 +80,10 @@ div.card, div.card div{
 
 div.card a{
 	text-align: left;
-	color:#000; font-size: 14px; font-weight: bold;
+	color:#00a; font-size: 12px;
 	font-family:"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei", SimSun, sans-serif;
 }
-div.card a:hover{color:#000;}
+div.card a:hover{color:#a00;}
 
 
 div.incard-text{
