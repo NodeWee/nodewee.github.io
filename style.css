@@ -76,17 +76,19 @@ div.card{
 div.card, div.card div{
 	color: #1A1A1A;
 	text-align: left;
+	font-size: 12px;
 }
 
 div.card a{
 	text-align: left;
-	color:#00a; font-size: 12px;
+	color:#00a; 
 	font-family:"Open Sans",Arial,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","STHeiti","WenQuanYi Micro Hei", SimSun, sans-serif;
 }
 div.card a:hover{color:#a00;}
 
 
 div.incard-text{
+	margin-left:30px;
 	margin-bottom:10px;
 }
 div.incard-text a{
