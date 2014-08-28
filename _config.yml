@@ -1,0 +1,11 @@
+markdown: rdiscount
+pygments: true
+permalink: /:year/:month/:day/:title.html
+name: "NodeWee"
+encoding: UTF-8
+
+author: "nodewee"
+atom-baseurl: "http://nodewee.me"
+disqus: "nodewee"
+
+navigations:

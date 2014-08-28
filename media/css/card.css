@@ -1,0 +1,33 @@
+
+
+div.card{
+	width:600px;
+	height:350px;
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+
+
+div.incard-text{
+	margin-left:150px;
+	margin-right: -100px;
+}
+div.incard-text a{
+	color:#66e;
+	padding: 2px 7px 2px 7px;
+}
+
+div#card01{
+	background: no-repeat url(https://iy9kkw.by3301.livefilestore.com/y2pZ1qgMKGDtuZ6N77r9iN7R_q1mAhV1hGxp-NJQuIPuKag4QdpRDOdbDN0wakWvNhDXqqSB3NgsVdwy7OhdlyaNDozU7uBtqg_C7prfijJ2vQ/nc-01.png?psid=1);
+}
+div#card02{
+	background: no-repeat url(https://iy9kkw.bay.livefilestore.com/y2pxRenTMj0htyd6wQ7Jk1JGJrO9AsaLrf7ncoIWiRVgR_em0LpRzG3UaRGv_zzTK92NjPkfyVzvq4yetsOduPpvoCGAvUwewDAD46H3BJlbQc/nc-02.png?psid=1);
+}
+div#card03{
+	background: no-repeat url(https://iy9kkw.bay.livefilestore.com/y2pyjzydiYez2h1BDyhk9V7dM_iBLwAKlJpkRlKhnpBXtxas7Oi4XdLJdgz5co3J3mnOKujaWpZsa_xwzaaGZsLeExXrGECzZ_0pDMfqIysZss/nc-03.png?psid=1);
+}
+div#card04{
+	background: no-repeat url(https://iy9kkw.by3302.livefilestore.com/y2pIV5uz80HpZQNSzAiMJGA4Zhartgk5riLmp_TFGPxlNS3X82NTOaOr8kjUQmM2VunIn9n8nSquAxRPIfW86_X87IhDbKI_wrXnqsiHteqvPA/nc-04.png?psid=1);
+}
+
+
