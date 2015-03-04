@@ -10,9 +10,9 @@ title: '在用的数字工具'
 
 ## 设备 ##
 
-- PC 2011~2014【Thinkpad】+2014【Windows 7】 
-- Phone 2014【Nexus 5】+【Android】
-- Pad 2014【iPad Mini】+【iOS】
+- PC 【Thinkpad T420i】+【Windows 7】 2011~
+- Phone 【Nexus 5】 2014~
+- Pad 【iPad Mini】 2014~
 
 ## 上网 ##
 
@@ -25,6 +25,7 @@ Chrome插件
  - 广告屏蔽【[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)】
 - 自动切换代理【[Proxy SwitchySharp](https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm)】
 
+科学上网 【轻云】
 
 ## 文件管理 ##
 
@@ -89,14 +90,14 @@ Chrome插件
 * 稍后阅读与文章存档 【[Pocket](https://getpocket.com/)】
 > 经常通过浏览器或手机APP看文章的话，那向你墙裂推荐Pocket。电脑和手机端添加文章都非常方便，阅读样式统一，自动恢复到上次阅读的位置；加星和添加标签功能可以满足对零散文章的存档和基本管理需求；数据存储在云端，不怕丢，多平台访问。还支持语音朗读，可以让眼睛休息一会了。
 
-APP
+新闻资讯
 【知乎日报】
-【知乎周刊】
+<del>【知乎周刊】</del>
 
 读书记录：
 【豆瓣读书】
 
-<del>手机听书【QQ阅读】[201412]</del>
+<del>手机听书【QQ阅读】[~201412]</del>
 
 
 
