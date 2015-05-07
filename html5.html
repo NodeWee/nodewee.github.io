@@ -96,6 +96,7 @@
       <span id="do-unsupported" class="hidden">deviceorientation event not supported</span> 
       <span id="dm-unsupported" class="hidden">devicemotion event not supported</span> 
       <span id="cnc-unsupported" class="hidden">compassneedscalibration event not supported</span> 
+      <div id="testtext">显示内容</div>
       <div id="do-results"> 
          <div id="cube" class="cube"> 
             <div class="face one">1</div> 
@@ -156,7 +157,10 @@ document.getElementById('cube').style.webkitTransform =
                        'rotateX(' + event.beta + 'deg) ' + 
                        'rotateY(' + event.gamma + 'deg) ' + 
                        'rotateZ(' + event.alpha + 'deg)'; 
-                       $("#dm-info").fadeTo("slow", Math.round(event.beta)/90);
+                       var tmd;
+                       tmd=Math.round(event.beta)/90;
+                       $("#testtext").fadeTo(10, tmd);
+                       $("#testtext").innerHTML=tmd;
                 document.getElementById('beta').innerHTML = Math.round(event.beta)/90; 
                document.getElementById('gamma').innerHTML = Math.round(event.gamma); 
                document.getElementById('alpha').innerHTML = Math.round(event.alpha); 
