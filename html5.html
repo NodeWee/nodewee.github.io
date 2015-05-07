@@ -4,6 +4,8 @@
       <meta charset="UTF-8"> 
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
       <meta name="author" content="Aurelio De Rosa"> 
+      <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.0.js">
+</script>
       <title>Device Orientation API Demo by Aurelio De Rosa</title> 
       <style> 
          * 
@@ -154,6 +156,7 @@ document.getElementById('cube').style.webkitTransform =
                        'rotateX(' + event.beta + 'deg) ' + 
                        'rotateY(' + event.gamma + 'deg) ' + 
                        'rotateZ(' + event.alpha + 'deg)'; 
+                       $("#do-info").fadeTo("slow",event.beta/90);
                document.getElementById('beta').innerHTML = Math.round(event.beta); 
                document.getElementById('gamma').innerHTML = Math.round(event.gamma); 
                document.getElementById('alpha').innerHTML = Math.round(event.alpha); 
