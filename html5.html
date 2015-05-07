@@ -91,12 +91,12 @@
          } 
       </style> 
    </head> 
-   <body> 
+   <body scroll="no"  style="overflow:scroll;overflow-y:hidden"> 
       <h1>Device Orientation API</h1> 
       <span id="do-unsupported" class="hidden">deviceorientation event not supported</span> 
       <span id="dm-unsupported" class="hidden">devicemotion event not supported</span> 
       <span id="cnc-unsupported" class="hidden">compassneedscalibration event not supported</span> 
-      <div id="testtext">显示内容</div>
+      <div id="testtext" style="width:1800px; height:1800px;">显示内容</div>
       <div id="do-results"> 
          <div id="cube" class="cube"> 
             <div class="face one">1</div> 
@@ -185,9 +185,16 @@ Math.round(event.accelerationIncludingGravity.z);
                                       var tmd;
                       var jd;
                        jd=event.accelerationIncludingGravity.z*9+90;
-                       tmd=jd/180;
+                       tmd=(jd-30)/180;
                        $("#testtext").fadeTo(10, tmd);
                        document.getElementById('testtext').innerHTML='角度'  + Math.round(jd) + ', 透明度' + Math.round(tmd);
+
+                       var ydx;
+                       var ydy;
+                       ydx=event.rotationRate.beta;
+                       ydy=event.rotationRate.gamma;
+                       $("#testtext").animate({right:'+='+ydx+'px'});
+                       $("#testtext").animate({top:'+='+ydy+'px'});
             }); 
          } 
          if (!('oncompassneedscalibration' in window)) { 
