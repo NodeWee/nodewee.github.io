@@ -187,7 +187,7 @@ Math.round(event.accelerationIncludingGravity.z);
                        jd=event.acceleration.z*9+90;
                        tmd=jd/180;
                        $("#testtext").fadeTo(10, tmd);
-                       $("#testtext").innerHTML='角度'  + Math.round(jd) + ', 透明度' + Math.round(tmd);
+                       document.getElementById('testtext').innerHTML='角度'  + Math.round(jd) + ', 透明度' + Math.round(tmd);
             }); 
          } 
          if (!('oncompassneedscalibration' in window)) { 
