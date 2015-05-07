@@ -184,7 +184,7 @@ Math.round(event.accelerationIncludingGravity.z);
 
                                       var tmd;
                       var jd;
-                       jd=event.acceleration.z*9+90;
+                       jd=event.accelerationIncludingGravity.z*9+90;
                        tmd=jd/180;
                        $("#testtext").fadeTo(10, tmd);
                        document.getElementById('testtext').innerHTML='角度'  + Math.round(jd) + ', 透明度' + Math.round(tmd);
