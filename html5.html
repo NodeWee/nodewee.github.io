@@ -219,8 +219,8 @@ Math.round(event.accelerationIncludingGravity.z);
                        ydy=Math.round(event.rotationRate.gamma);
                        document.getElementById('move-x').innerHTML = ydx; 
                        document.getElementById('move-y').innerHTML = ydy; 
-                       $("#goarea").animate({right:'+='+ydx+'px'});
-                       $("#goarea").animate({top:'+='+ydy+'px'});
+                       $("#goarea").animate({right:'+='+ydx+'px'},10);
+                       $("#goarea").animate({top:'+='+ydy+'px'},10);
             }); 
          } 
          if (!('oncompassneedscalibration' in window)) { 
