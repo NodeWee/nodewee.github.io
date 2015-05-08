@@ -199,8 +199,8 @@ Math.round(event.accelerationIncludingGravity.z);
 
                        var ydx;
                        var ydy;
-                       ydx=math.round(event.rotationRate.beta);
-                       ydy=math.round(event.rotationRate.gamma);
+                       ydx=Math.round(event.rotationRate.beta);
+                       ydy=Math.round(event.rotationRate.gamma);
                        document.getElementById('move-x').innerHTML = ydx; 
                        document.getElementById('move-y').innerHTML = ydy; 
                        $("#goarea").animate({right:'+='+ydx+'px'});
