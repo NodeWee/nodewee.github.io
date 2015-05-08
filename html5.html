@@ -91,12 +91,15 @@
          } 
       </style> 
    </head> 
-   <body scroll="no"  style="overflow:scroll;overflow-y:hidden"> 
+   <body>      <!-- scroll="no"  style="overflow:scroll;overflow-y:hidden"     --> 
       <h1>Device Orientation API</h1> 
       <span id="do-unsupported" class="hidden">deviceorientation event not supported</span> 
       <span id="dm-unsupported" class="hidden">devicemotion event not supported</span> 
       <span id="cnc-unsupported" class="hidden">compassneedscalibration event not supported</span> 
-      <div id="goarea"><span id="testtext">显示内容</div><img src="https://assets-cdn.github.com/images/modules/home/gh-windows-app.png" /></div>
+      <div class="btn1">
+      	button
+      </div>
+      <div id="goarea"><span id="testtext">显示内容</div><img src="http://img3.douban.com/view/site/large/public/00f928d04fe7f15.jpg" /></div>
       <div id="do-results"> 
          <div id="cube" class="cube"> 
             <div class="face one">1</div> 
@@ -136,6 +139,11 @@
                (<span id="rotation-rate-beta" class="value">null</span>, 
                <span id="rotation-rate-gamma" class="value">null</span>, 
                <span id="rotation-rate-alpha" class="value">null</span>) 
+            </p> 
+            <p> 
+               Move: 
+               (<span id="move-x" class="value">null</span>, 
+               <span id="move-y" class="value">null</span>,) 
             </p> 
             <p> 
                Interval: <span id="interval" class="value">0</span> milliseconds 
@@ -191,8 +199,10 @@ Math.round(event.accelerationIncludingGravity.z);
 
                        var ydx;
                        var ydy;
-                       ydx=event.rotationRate.beta;
-                       ydy=event.rotationRate.gamma;
+                       ydx=math.round(event.rotationRate.beta);
+                       ydy=math.round(event.rotationRate.gamma);
+                       document.getElementById('move-x').innerHTML = ydx; 
+                       document.getElementById('move-y').innerHTML = ydy; 
                        $("#goarea").animate({right:'+='+ydx+'px'});
                        $("#goarea").animate({top:'+='+ydy+'px'});
             }); 
@@ -204,6 +214,10 @@ Math.round(event.accelerationIncludingGravity.z);
                alert('Compass needs calibrating! Wave your device in a figure-eight motion'); 
             }); 
          } 
+
+         $(".btn1").click(function(){
+    $("#goarea").animate({right:'+=100px'});
+  }); 
       </script> 
    </body> 
 </html> 
