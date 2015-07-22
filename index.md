@@ -13,13 +13,10 @@ guid: index
       <a href="/flinks.html">友链</a>
       </div>
       <div class="incard-text">
-      <a href="http://weibo.com/nodewee">微博</a>
-      <a href="http://movie.douban.com/people/NodeWee/">看片</a>
-      <a href="http://book.douban.com/people/NodeWee/">读书</a>
+	<a href="http://movie.douban.com/people/NodeWee/">看片</a>
+	<a href="http://book.douban.com/people/NodeWee/">读书</a>
+	<a href="http://weibo.com/nodewee">微博</a>
+	<span>微信:nodewee</span> 
       </div>
     </div>
 </div>
-
-<div id="card02" class="card"></div>
-<div id="card03" class="card"></div>
-<div id="card04" class="card"></div>
