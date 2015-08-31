@@ -1,17 +1,19 @@
 ---
 layout: page
-guid: digital-tools
-title: '在用的数字工具'
+guid: tools
+title: '在用的工具'
 ---
 
-`update: 20141216`
+`update: 2014-12-16，2015-08-31`
 
-> 自己作备忘索引，并分享推荐
+> 自己作备忘索引，并分享推荐。  |  追求好用（提高生产力，且美） 
+
+  
 
 ## 设备 ##
 
 - PC 【Thinkpad T420i】+【Windows 7】 2011~
-- Phone 【Nexus 5】 2014~
+- Phone 【iPhone 6】201504~ <del>【Nexus 5】 2014~201504（丢失）</del>
 - Pad 【iPad Mini】 2014~
 
 ## 上网 ##
@@ -19,18 +21,23 @@ title: '在用的数字工具'
 * 浏览器 【[Chrome](http://www.google.cn/intl/zh-CN/chrome/)】
 * 加密DNS解决DNS污染 【[DNSCrypt](http://www.opendns.com/about/innovations/dnscrypt/) | [？](http://www.williamlong.info/archives/3890.html)】
 * SSH客户端 【Bitvise Tunnelier】
+* 收费VPN 【轻云】
+
 
 Chrome插件
 
  - 广告屏蔽【[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)】
 - 自动切换代理【[Proxy SwitchySharp](https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm)】
 
-科学上网 【轻云】
 
-## 文件管理 ##
+
+## 文件相关 ##
 
 * Windows文件浏览增强 【Listary】
 > 推荐。提高打开文件夹或者找文件的效率。尤其是经常会遇到的“打开”和“保存”对话框要选择文件路径的时候。
+
+* 【FileGee】 个人文件同步备份系统 
+> 国人开发。功能丰富，多种备份方式，自动，且支持部分开放授权的网盘（例如百度盘）
 
 * 文件资源管理器 【Total Commander】
 > 可以放弃 Windows 系统自带的 Explorer 了。 上手略有点小麻烦，但学会使用之后会大大的提高文件操作效率，不仅仅是快速的打开想要的文件目录，但仅此一点就节约了很多时间和鼠标手的劳动强度。
@@ -104,8 +111,7 @@ Chrome插件
 ## 影音 ##
 
 视频播放器：
-PC端【KMPlayer】【迅雷看看】 /
-安卓【MX Player】
+PC端【KMPlayer】【迅雷看看】 / 苹果自带 / 安卓【MX Player】
 
 听歌：
 【虾米】【last.fm】
@@ -114,6 +120,7 @@ PC端【KMPlayer】【迅雷看看】 /
 
 看片记录：
 【豆瓣电影】
+
 
 ## 学语言 ##
 背单词：
@@ -125,13 +132,16 @@ PC端【KMPlayer】【迅雷看看】 /
 
 ## 通讯 ##
 
-即时通讯 【QQ】 【微信】
+即时 【移动电话】 【微信】 【QQ】
 
 SNS 【微博】【微信朋友圈】【QQ空间】
 
 邮件服务 【QQ邮箱】 【Gmail】
 
-手机通讯录备份 【Google账户同步】 <del>【QQ同步助手】[201412]</del>
+* 手机通讯录备份  
+【QQ同步助手】201504~  
+<del>【Google账户同步】201501~201504</del>  
+<del>【QQ同步助手】~201412</del>  
 
 
 
@@ -141,23 +151,25 @@ SNS 【微博】【微信朋友圈】【QQ空间】
 * 笔记与日志【[Evernote](http://evernote.com/)】
 > 笔记软件很多，个人习惯使用 Evernote，多平台，云存储，支持有格式的文字、图片和录音。编辑器比较弱，但记录方便。优势是OCR技术，可直接搜索到图片上的文字。
 
-* 手机计步 【Pedometer】
-> 记录每天走了多少步
-
-* 时间记录 【Time Meter】
+* 计步  
+<del>~201504【Pedometer】 安卓手机计步</del>  
+<del>~201504时间记录 【Time Meter】</del>  
 
 * 鼠标与键盘击键次数【Mousotron】
 
+
 ## 安全 ##
 
-* 腾讯电脑管家
+* 文件加密 【[AxCrypt](http://www.axantum.com/AxCrypt/)】 开源，简单易用。[[介绍](http://www.iplaysoft.com/axcrypt.html)]
 
-* 密码管理 【[KeePass 2](http://keepass.info/)】
+* 【[KeePass 2](http://keepass.info/)】 开源的本地账号密码存储管理工具。不同网站不同密码，降低网站泄密危机
+
+* 【腾讯电脑管家】 电脑清理
 
 
 ## 其它 ##
 
-屏幕色温随时间自动调节 【Flux】
+【Flux】 屏幕色温随时间自动调节，让眼睛舒服一点
 
 代码托管 【[GitHub](http://github.com/)】
 
@@ -170,9 +182,10 @@ SNS 【微博】【微信朋友圈】【QQ空间】
 网盘
 【腾讯微云】
 【百度云盘】
+【360云盘】
 
 同步盘
 【Dropbox】
-【微云同步盘】
+<del>【微云同步盘】已与微云合并</del>
 【坚果云】
 

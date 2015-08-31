@@ -1,0 +1,174 @@
+<!DOCTYPE html> 
+<html> 
+   <head> 
+      <meta charset="UTF-8"> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+      <meta name="author" content="Aurelio De Rosa"> 
+      <script src="https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/js/lib/jquery-1.10.2_d88366fd.js">
+</script>
+
+<script type="text/javascript">
+$(document).ready(function()
+  {
+      $(".btn1").click(function(){
+         $("#goarea").animate({{left:'100px'});
+      });
+      $(".btn2").click(function(){
+         $("#goarea").animate({top:'100px'});
+      });
+});
+</script>
+      <title>Device Orientation API Demo by Aurelio De Rosa</title> 
+      <style> 
+         * 
+         { 
+            -webkit-box-sizing: border-box; 
+            -moz-box-sizing: border-box; 
+            box-sizing: border-box; 
+         } 
+         body 
+         { 
+            max-width: 500px; 
+            margin: 2em auto; 
+            padding: 0 0.5em; 
+            font-size: 20px; 
+         } 
+         h1 
+         { 
+            text-align: center; 
+         } 
+         .hidden 
+         { 
+            display: none; 
+         } 
+         .cube 
+         { 
+            width: 150px; 
+            height: 150px; 
+            position: relative; 
+            margin: 30px auto; 
+            -webkit-transform-style: preserve-3d; 
+            transform-style: preserve-3d; 
+         } 
+
+         .value 
+         { 
+            font-weight: bold; 
+         } 
+         .author 
+         { 
+            display: block; 
+            margin-top: 1em; 
+         } 
+      </style> 
+   </head> 
+   <body>      <!-- scroll="no"  style="overflow:scroll;overflow-y:hidden"     --> 
+      <h1>Device Orientation API</h1> 
+      <span id="do-unsupported" class="hidden">deviceorientation event not supported</span> 
+      <span id="dm-unsupported" class="hidden">devicemotion event not supported</span> 
+      <span id="cnc-unsupported" class="hidden">compassneedscalibration event not supported</span> 
+</div>
+
+      <div id="goarea" style="background:#98bf21;height:500px; width:500px;margin:6px; display:block;position:absolute; z-index:-1">
+         <span id="testtext">显示内容</span>
+      <img src="http://img3.douban.com/view/site/large/public/00f928d04fe7f15.jpg" />
+   </div>
+      <div id="do-results"> 
+         <div id="do-info" class="hidden"> 
+            <p> 
+               Coordinates: 
+               (<span id="beta" class="value">null</span>, 
+               <span id="gamma" class="value">null</span>, 
+               <span id="alpha" class="value">null</span>) 
+               </p> 
+               Position absolute? <span id="is-absolute" class="value">unavailable</span> 
+            </p> 
+         </div> 
+         <div id="dm-info" class="hidden"> 
+            <p> 
+               Acceleration: 
+               (<span id="acceleration-x" class="value">null</span>, 
+               <span id="acceleration-y" class="value">null</span>, 
+               <span id="acceleration-z" class="value">null</span>) 
+               m/s<sup>2</sup> 
+            </p> 
+            <p> 
+               Acceleration including gravity: 
+               (<span id="acceleration-including-gravity-x" class="value">null</span>, 
+               <span id="acceleration-including-gravity-y" class="value">null</span>, 
+               <span id="acceleration-including-gravity-z" class="value">null</span>) 
+               m/s<sup>2</sup> 
+            </p> 
+            <p> 
+               Rotation rate: 
+               (<span id="rotation-rate-beta" class="value">null</span>, 
+               <span id="rotation-rate-gamma" class="value">null</span>, 
+               <span id="rotation-rate-alpha" class="value">null</span>) 
+            </p> 
+            <p> 
+               Move: 
+               (<span id="move-x" class="value">null</span>, 
+               <span id="move-y" class="value">null</span>,) 
+            </p> 
+            <p> 
+               Interval: <span id="interval" class="value">0</span> milliseconds 
+            </p> 
+         </div> 
+      </div> 
+      <small class="author"> 
+         Demo created by <a href="http://www.audero.it">Aurelio De Rosa</a> 
+         (<a href="https://twitter.com/AurelioDeRosa">@AurelioDeRosa</a>) 
+      </small> 
+      <script> 
+         if (!window.DeviceOrientationEvent) { 
+            document.getElementById('do-unsupported').classList.remove('hidden'); 
+         } else { 
+            document.getElementById('do-info').classList.remove('hidden'); 
+            window.addEventListener('deviceorientation', function(event) { 
+                document.getElementById('beta').innerHTML = Math.round(event.beta); 
+               document.getElementById('gamma').innerHTML = Math.round(event.gamma); 
+               document.getElementById('alpha').innerHTML = Math.round(event.alpha); 
+               document.getElementById('is-absolute').innerHTML = event.absolute ? "true" : "false"; 
+            }); 
+         } 
+         if (!window.DeviceMotionEvent) { 
+            document.getElementById('dm-unsupported').classList.remove('hidden'); 
+         } else { 
+            document.getElementById('dm-info').classList.remove('hidden'); 
+            window.addEventListener('devicemotion', function(event) { 
+               document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x); 
+               document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y); 
+               document.getElementById('acceleration-z').innerHTML = Math.round(event.acceleration.z); 
+               document.getElementById('acceleration-including-gravity-x').innerHTML = 
+Math.round(event.accelerationIncludingGravity.x); 
+               document.getElementById('acceleration-including-gravity-y').innerHTML = 
+Math.round(event.accelerationIncludingGravity.y); 
+               document.getElementById('acceleration-including-gravity-z').innerHTML = 
+Math.round(event.accelerationIncludingGravity.z); 
+               document.getElementById('rotation-rate-beta').innerHTML = Math.round(event.rotationRate.beta); 
+               document.getElementById('rotation-rate-gamma').innerHTML = Math.round(event.rotationRate.gamma); 
+               document.getElementById('rotation-rate-alpha').innerHTML = Math.round(event.rotationRate.alpha); 
+               document.getElementById('interval').innerHTML = event.interval; 
+
+                                      var tmd;
+                      var jd;
+                       jd=event.accelerationIncludingGravity.z*9+90;
+                       tmd=(jd-30)/180;
+                       $("#goarea").fadeTo(10, tmd);
+                       document.getElementById('testtext').innerHTML='角度'  + Math.round(jd) + ', 透明度' + Math.round(tmd);
+
+                       var ydx;
+                       var ydy;
+                       ydx=Math.round(event.rotationRate.beta);
+                       ydy=Math.round(event.rotationRate.gamma);
+                       document.getElementById('move-x').innerHTML = ydx; 
+                       document.getElementById('move-y').innerHTML = ydy; 
+                       $("#goarea").animate({right:'+='+ydx+'px'},10);
+                       $("#goarea").animate({top:'+='+ydy+'px'},10);
+            }); 
+         } 
+
+
+      </script> 
+   </body> 
+</html> 
