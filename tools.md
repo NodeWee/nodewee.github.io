@@ -33,21 +33,21 @@ Chrome插件
 
 ## 文件相关 ##
 
-* Windows文件浏览增强 【Listary】
+* Windows文件浏览增强 【[Listary](http://www.listary.com/)】
 > 推荐。提高打开文件夹或者找文件的效率。尤其是经常会遇到的“打开”和“保存”对话框要选择文件路径的时候。
 
-* 【FileGee】 个人文件同步备份系统 
+* 【[FileGee](http://cn.filegee.com/)】 个人文件同步备份系统 
 > 国人开发。功能丰富，多种备份方式，自动，且支持部分开放授权的网盘（例如百度盘）
 
-* 文件资源管理器 【Total Commander】
+* 文件资源管理器 【[Total Commander](http://www.ghisler.com/)】
 > 可以放弃 Windows 系统自带的 Explorer 了。 上手略有点小麻烦，但学会使用之后会大大的提高文件操作效率，不仅仅是快速的打开想要的文件目录，但仅此一点就节约了很多时间和鼠标手的劳动强度。
 
-* 本地文件搜索【Everything】
-> 以文件名来搜索文件和文件夹，速度超级快。
+* 本地文件搜索【[Everything](http://www.voidtools.com/)】
+> 建立文件名称索引，按文件名来搜索文件和文件夹，速度超级快。
 
 * 重复文件查找 【Fast Duplicate File Finder】
 
-* 压缩解压 【7-zip】
+* 压缩解压 【[7-zip](http://www.7-zip.org/)】
 
 ## 输入法 ##
 
