@@ -65,7 +65,7 @@ Chrome插件
 
 ## 文本编辑 ##
 
-文本与代码编辑【[Sublime Text 2](http://www.sublimetext.com/)】
+文本与代码编辑【[Sublime Text](http://www.sublimetext.com/)】[2014~]
 
 .ahk, .lua, .ini 脚本语言与配置文件编辑 【[SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/)】
 
