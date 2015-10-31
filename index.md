@@ -7,7 +7,7 @@ update: 2015-08-31
 <div id="card01" class="card">
     <div style="display:block; width:360px; height:250px; position:relative; top:45px; left:50px; text-align:left;">
       <div class="incard-text">
-      <a href="/tools.html">在用工具</a>
+      <a href="/tools.html">持用工具</a>
       <a href="http://blog.nodewee.me/">博客</a>
       <a href="http://lab.nodewee.me/"><span class=name>SoftLab</span></a>
       <a href="http://collection.nodewee.me/"><span class=name>主题收集</span></a>
