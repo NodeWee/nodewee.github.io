@@ -8,15 +8,13 @@ title: '持用的工具'
 
 > 自己作备忘索引，顺带分享和推荐。  |  追求好用（效率与美） 
 
-  
+---
 
 ## 外延 ##
 
 - PC 【Thinkpad T420i】+【Windows 7】 [2011~]
-
 - Phone 【iPhone 6】[201504~]
 <del>【Nexus 5】[2014~201504，[丢失](http://blog.nodewee.me/2015/04/14/when-the-phone-is-lost.html)]</del>
-
 - Pad 【iPad Mini】[2014~]
 
 ## 上网 ##
@@ -56,7 +54,6 @@ Chrome插件
 ## 输入 ##
 - Logitech M212 无线键鼠 2014~
 	> 便宜好用，设计简洁
-
 - PC端 【谷歌拼音输入法】/【搜狗拼音输入法】
 - 手机端 【苹果默认输入法】/<del>搜狗拼音输入法</del>；<del>【谷歌输入法】/【讯飞输入法】</del>
 - 平板端 【苹果默认输入法】/<del>【搜狗拼音输入法】</del>
@@ -65,15 +62,12 @@ Chrome插件
 
 ## 文本编辑 ##
 
-文本与代码编辑【[Sublime Text](http://www.sublimetext.com/)】[2014~]
-
-.ahk, .lua, .ini 脚本语言与配置文件编辑 【[SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/)】
-
+文本与代码编辑【[Sublime Text](http://www.sublimetext.com/)】[2014~]  
+.ahk, .lua, .ini 脚本语言与配置文件编辑 【[SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/)】  
 .lua 语法检查/调试
-【[LuaEdit 2010](http://luaforge.net/projects/luaedit/)】（[度盘存档](http://pan.baidu.com/s/1mgDRrF6)，密码:ggnc）
-
+【[LuaEdit 2010](http://luaforge.net/projects/luaedit/)】（[>度盘存档](http://pan.baidu.com/s/1mgDRrF6)，密码:ggnc）  
 .md MarkDown 所见即所得编辑
-【[MarkdownPad 2](http://markdownpad.com/)】[2014~]
+【[MarkdownPad 2](http://markdownpad.com/)】[2014~]  
 
 ## 办公文档编辑 ##
 
@@ -91,22 +85,21 @@ Chrome插件
 * 手机滤镜【Autodesk Pixlr】[2015~]
 
 ### 辅助 ###
-
-屏幕颜色提取【[Pixie](http://www.nattyware.com/pixie.php)】
-
-二维码生成 【[http://lab.nodewee.me/qrcode/](http://lab.nodewee.me/qrcode/)】
+屏幕颜色提取【[Pixie](http://www.nattyware.com/pixie.php)】  
+二维码生成 【[http://lab.nodewee.me/qrcode/](http://lab.nodewee.me/qrcode/)】  
 
 
 ## 阅读 ##
 
-* 读书
-	* 【Kindle】电纸书+手机APP+平板APP；
-	* <del>手机听书【QQ阅读】[~201412]</del>
-* 稍后阅读与收藏 【[Pocket](https://getpocket.com/)】
+读书：  
+【Kindle】电纸书+手机APP+平板APP；  
+<del>手机听书【QQ阅读】[~201412]</del>  
+
+稍后阅读与收藏 【[Pocket](https://getpocket.com/)】
 > 若常阅读文章或资讯，墙裂推荐Pocket。电脑和手机端添加文章都非常方便，阅读样式统一，自动恢复到上次阅读的位置；加星和添加标签功能可以满足对零散文章的存档和基本管理需求；数据存储在云端，不怕丢，多平台访问。还支持语音朗读，可以让眼睛休息一会了。
 
-* 新闻资讯：
-【知乎日报】，<del>【知乎周刊】</del>
+* 长姿势/新闻资讯：
+【知乎】，【知乎日报】，【好奇心日报】，【36氪】，<del>【知乎周刊】</del>
 
 
 ## 影音 ##
@@ -133,6 +126,7 @@ PC端 【Daum Potplayer】 <del>【KMPlayer】</del> 【迅雷看看】
 ## 通讯 ##
 
 即时 【移动电话】
+【微信电话本】[201510~]
 【微信】[2011~]
 【Telegram】[201510~]
 【QQ】[1999~]
@@ -150,16 +144,15 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 
 ## 记录与量化 ##
 
-* 笔记与日志【[Evernote](http://evernote.com/)】
+* 笔记与日志  
+【[Evernote](http://evernote.com/)】
 > 笔记软件很多，个人习惯使用 Evernote，多平台，云存储，支持有格式的文字、图片和录音。编辑器比较弱，但记录方便。优势是OCR技术，可直接搜索到图片上的文字。
 
-
 * 读书记录 【豆瓣读书】
+* 看片记录 【豆瓣电影】
 
-
-看片记录 【豆瓣电影】
-
-* 计步  【iPhone 健康】
+* 计步  
+【iPhone 健康】  
 <del>【Pedometer】[~201504] 安卓手机计步</del>  
 <del>时间记录 【Time Meter】[~201504]</del>  
 
@@ -169,7 +162,7 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 ## 安全 ##
 
 文件加密  【[AxCrypt](http://www.axantum.com/AxCrypt/)】[201509~]
-> 开源，简单易用。[> 介绍](http://www.iplaysoft.com/axcrypt.html)
+> 开源，简单易用。[> 更多介绍](http://www.iplaysoft.com/axcrypt.html)
 
 密码管理 【[KeePass 2](http://keepass.info/)】[2015~]
 > 开源的本地账号密码存储管理工具。不同网站不同密码，降低网站泄密危机
@@ -179,7 +172,7 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 
 ## 其它 ##
 
-【Flux】[201507~] 屏幕色温随时间自动调节，让眼睛舒服一点
+【[F.lux](https://justgetflux.com/)】[201507~] 屏幕色温随时间自动调节，让眼睛舒服一点 [\]>](http://www.iplaysoft.com/flux.html "更多介绍")
 
 代码托管 【[GitHub](http://github.com/)】[2015~]
 
@@ -198,6 +191,6 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 【坚果云】
 
 ## 生活 ##
-【Blu·Tack（蓝丁胶)】[201210~]
+【[Blu·Tack（蓝丁胶)](http://s.click.taobao.com/rzZ6hlx)】[201210~]
 >固定和粘轻便的东西（比如海报）什么的太好用了，不留痕，重复利用。简直是生活和办公利器！我的工作区背景墙就是用它来帮忙布置，海报、明信片、徽章、小的塑料摆件统统上墙，固定后想再调整位置也毫无压力！[2015-10-10]
 
