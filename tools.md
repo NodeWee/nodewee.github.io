@@ -71,13 +71,13 @@ Chrome插件
 
 ## 办公文档编辑 ##
 
-* 文字/表格/演示文稿
-【金山 WPS Office】[2014~]
-【Microsoft Office】[2001~]
+文字/表格/演示文稿：  
+【金山 WPS Office】[2014~]  
+【Microsoft Office】[2001~]  
 
-* PDF 【Adobe Acrobat】[2005~]
+PDF 【Adobe Acrobat】[2005~]  
 
-* 思维导图 【XMind】[2014~]
+思维导图 【XMind】[2014~]  
 
 ## 平面设计/图像处理 ##
 * 平面设计 【Adobe Illustrator】[2013~]
