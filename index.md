@@ -5,7 +5,29 @@ update: 2015-08-31, 2015-10-31
 ---
 
 <div id="card01" class="card">
+
+      <div class="incard-text">
+        &nbsp;
+      </div>
+
+      <div class="incard-text">
+      <center><span style="color:gray; font-size:small;">对这世界充满着好奇 | Being-towards-death</span></center>
+      </div>
+
+
+      <div class="incard-text">
+        &nbsp;
+      </div>
+      <div class="incard-text">
+        &nbsp;
+      </div>
+      <div class="incard-text">
+        &nbsp;
+      </div>
+
     <div style="display:block; width:360px; height:250px; position:relative; top:45px; left:50px; text-align:left;">
+
+
       <div class="incard-text">
         <a href="/tools.html">持用工具</a>
         <a href="http://blog.nodewee.me/">博客</a>
@@ -20,21 +42,6 @@ update: 2015-08-31, 2015-10-31
       	<span>微信:nodewee</span> 
       </div>
 
-      <div class="incard-text">
-        &nbsp;
-      </div>
-      <div class="incard-text">
-        &nbsp;
-      </div>
-      <div class="incard-text">
-        &nbsp;
-      </div>
-      <div class="incard-text">
-        &nbsp;
-      </div>
-      <div class="incard-text">
-      <center><span style="color:gray; font-size:small;">对这世界充满着好奇 | Being-towards-death</span></center>
-      </div>
       
     </div>
 </div>
