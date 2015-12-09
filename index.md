@@ -35,17 +35,17 @@ update: 2015-08-31, 2015-10-31
 
 
       <div class="incard-text">
-        <a href="/tools.html">持用工具</a>
-        <a href="http://blog.nodewee.me/">博客</a>
+        <a href="http://blog.nodewee.me/" title="Blog">博客</a>
+		<a href="http://blog.nodewee.me/tags.html#作品" title="Works">作品</a>
+		<a href="/tools.html" title="Tools">工具</a>
         <a href="http://lab.nodewee.me/"><span class=name>SoftLab</span></a>
-        <a href="http://collection.nodewee.me/"><span class=name>主题收集</span></a>
-        <a href="/flinks.html">友链</a>
+        <a href="/flinks.html" title="Links">友链</a>
       </div>
       <div class="incard-text">
-      	<a href="http://movie.douban.com/people/NodeWee/">看片</a>
-      	<a href="http://book.douban.com/people/NodeWee/">读书</a>
-      	<a href="http://weibo.com/nodewee">微博</a>
-      	<span>微信:nodewee</span> 
+      	<a href="http://movie.douban.com/people/NodeWee/" title="Watched">看片</a>
+      	<a href="http://book.douban.com/people/NodeWee/" title="Read">读书</a>
+      	<a href="http://weibo.com/nodewee" title="Weibo">微博</a>
+      	<a href="/contact.html" title="Contact">联络</a>
       </div>
 
       
