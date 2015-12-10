@@ -6,8 +6,6 @@ title: 'Support'
 
 
 
-<center>谢谢你的支持！  
+<center>谢谢支持！</center>  
 
 ![](./support.png)
-
-</center>
