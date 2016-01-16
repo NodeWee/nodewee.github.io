@@ -1,38 +1,42 @@
 ---
 layout: page
 guid: tools
-title: '持用的工具'
+title: '我的工具'
 ---
 
-`update: 2014-12-16，2015-08-31，2015-10-31`
+`update: 2014-12-16，2015-08-31，2015-10-31，2015-12-21`
 
-> 自己作备忘索引，顺带分享和推荐。  |  追求好用（效率与美） 
+> 自己作备忘索引，顺带分享和推荐。  |  追求好用（功能、效率与美） 
 
 ---
 
-## 外延 ##
+## 硬件
 
-- PC 【Thinkpad T420i】+【Windows 7】 [2011~]
-- Phone 【iPhone 6】[201504~]
+- 【Thinkpad T420i】+【Windows 7】 [2011~]
+- 【iPhone 6】[201504~]
 <del>【Nexus 5】[2014~201504，[丢失](http://blog.nodewee.me/2015/04/14/when-the-phone-is-lost.html)]</del>
-- Pad 【iPad Mini】[2014~]
+- 【iPad Mini】[2014~]
 
-## 上网 ##
+## 上网
 
 * 浏览器 【[Chrome](http://www.google.cn/intl/zh-CN/chrome/)】
-* <del>加密DNS解决DNS污染 【[DNSCrypt](http://www.opendns.com/about/innovations/dnscrypt/) | [？](http://www.williamlong.info/archives/3890.html)】</del>
+
+* Chrome 广告屏蔽插件 【[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)】[2014~]
+
+### 科学上网搭梯子
+
+* Chrome 代理插件 【SwitchyOmega】[201511~]（原SwitchySharp的换代版）<del>【[Proxy SwitchySharp](https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm)】[2015~201511]</del>
+
 * SSH客户端 【Bitvise Tunnelier】
+
+* <del>加密DNS解决DNS污染 【[DNSCrypt](http://www.opendns.com/about/innovations/dnscrypt/) | [？](http://www.williamlong.info/archives/3890.html)】</del>
+
 * 收费VPN 【轻云】[2015~]
 
-
-Chrome插件
-
- - 广告屏蔽【[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)】[2014~]
-- 自动切换代理【[Proxy SwitchySharp](https://chrome.google.com/webstore/detail/proxy-switchysharp/dpplabbmogkhghncfbfdeeokoefdjegm)】[2015~]
+* iPhone端搭梯子：【FanWall】[201507]，【ArkVPN】[201512~]
 
 
-
-## 文件相关 ##
+## 文件与数据管理
 
 * Windows文件浏览增强 【[Listary](http://www.listary.com/)】[2015~]
 > 推荐。提高选择文件夹的效率。尤其是经常会遇到的“打开”和“保存”对话框要选择文件路径的时候，可以自动展开到上一次目录，或快速搜索跳转到所需目录。
@@ -50,8 +54,23 @@ Chrome插件
 
 * 压缩解压 【[7-zip](http://www.7-zip.org/)】[2012~]
 
+* iPhone 照片局域网传输备份至 PC 【[DAEMON Sync](http://daemonsync.me/)】  
 
-## 输入 ##
+* 照片管理与回顾 【[Google Photos](https://photos.google.com/)】
+> 人工智能识别图片内容（例如人脸）自动分类的功能真是太好用了！ 还免费无线容量！
+
+* 跨平台同步文件 【腾讯微云】【Dropbox】【BitTorrent Sync】<del>【坚果云】[2015]</del>  
+
+* 云存储 【腾讯微云】【百度云盘】【360云盘】  
+
+* 文件加密  【[AxCrypt](http://www.axantum.com/AxCrypt/)】[201509~]
+> 开源，简单易用。[> 更多介绍](http://www.iplaysoft.com/axcrypt.html)
+
+* 电脑清理 【腾讯电脑管家】[2014~]
+
+
+
+## 输入
 - Logitech M212 无线键鼠 2014~
 	> 便宜好用，设计简洁
 - PC端 【谷歌拼音输入法】/【搜狗拼音输入法】
@@ -60,16 +79,19 @@ Chrome插件
 
 
 
-## 文本编辑 ##
+## 文本编辑
 
-文本与代码编辑【[Sublime Text](http://www.sublimetext.com/)】[2014~]  
-.ahk, .lua, .ini 脚本语言与配置文件编辑 【[SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/)】  
-.lua 语法检查/调试
+* 通用文本与代码编辑【[Sublime Text](http://www.sublimetext.com/)】[2014~]  
+ * FileDiffs 插件，比较两份文本的不同
+ * HTML-CSS-JS Prettify 插件，HTML/CSS/JS代码格式化
+
+* .ahk, .lua, .ini 脚本语言与配置文件编辑 【[SciTE4AutoHotkey](http://fincs.ahk4.net/scite4ahk/)】  
+* .lua 语法检查/调试
 【[LuaEdit 2010](http://luaforge.net/projects/luaedit/)】（[>度盘存档](http://pan.baidu.com/s/1mgDRrF6)，密码:ggnc）  
-.md MarkDown 所见即所得编辑
+* .md MarkDown 所见即所得编辑
 【[MarkdownPad 2](http://markdownpad.com/)】[2014~]  
 
-## 办公文档编辑 ##
+## 办公文档编辑
 
 文字/表格/演示文稿：  
 【金山 WPS Office】[2014~]  
@@ -79,7 +101,8 @@ PDF 【Adobe Acrobat】[2005~]
 
 思维导图 【XMind】[2014~]  
 
-## 平面设计/图像处理 ##
+## 图片/图像的处理与设计
+* PC端看图 【HoneyView】[201512]， <del>【Google Picasa】[2013~201512]<del>
 * 平面设计 【Adobe Illustrator】[2013~]
 * 图片处理 【Adobe Photoshop】[2012~]
 * 手机滤镜【Autodesk Pixlr】[2015~]
@@ -131,12 +154,12 @@ PC端 【Daum Potplayer】 <del>【KMPlayer】</del> 【迅雷看看】
 【Telegram】[201510~]
 【QQ】[1999~]
 
-SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>  
+SNS 【微博】 【微信朋友圈】 【Facebook】 【豆瓣】 <del>【QQ空间】</del>  
 
 邮件服务 【QQ邮箱】 【Gmail】  
 
 手机通讯录备份
-【QQ同步助手】[~201412, 201504~]
+【微信】【QQ同步助手】[~201412, 201504~201512]
 【iCloud】
 <del>【Google账户同步】[201501~201504]</del>
 
@@ -161,13 +184,9 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 
 ## 安全 ##
 
-文件加密  【[AxCrypt](http://www.axantum.com/AxCrypt/)】[201509~]
-> 开源，简单易用。[> 更多介绍](http://www.iplaysoft.com/axcrypt.html)
-
 密码管理 【[KeePass 2](http://keepass.info/)】[2015~]
 > 开源的本地账号密码存储管理工具。不同网站不同密码，降低网站泄密危机
 
-电脑清理 【腾讯电脑管家】[2014~]
 
 
 ## 其它 ##
@@ -182,13 +201,15 @@ SNS 【微博】 【微信朋友圈】 【Facebook】 <del>【QQ空间】</del>
 
 外链图床【[OneDrive](https://onedrive.live.com)】
 
-云盘
-【腾讯微云】
-【百度云盘】
-【360云盘】
-【Dropbox】
-<del>【微云同步盘】已与微云合并</del>
-【坚果云】
+
+## 软件工具信息源
+
+* 百度、Google
+* [善用佳软](http://xbeta.info/)  
+* [小众软件](http://www.appinn.com/)  
+* 
+
+
 
 ## 生活 ##
 【[Blu·Tack（蓝丁胶)](http://s.click.taobao.com/rzZ6hlx)】[201210~]
