@@ -17,7 +17,8 @@ update: 2015-08-31, 2015-10-31
       </div>
 
       <div class="incard-text">
-      <center><span style="color:gray; font-size:small;">对这世界充满着好奇 | Being-towards-death</span></center>
+      <center><span style="color:gray; font-size:small;">I'm a slow walker, but I never walk back.
+<br />对这世界充满着好奇 | Being-towards-death</span></center>
       </div>
 
 
