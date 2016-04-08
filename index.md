@@ -39,7 +39,7 @@ update: 2015-08-31, 2015-10-31
         <a href="http://blog.nodewee.me/" title="Blog">博客</a>
 		<a href="http://blog.nodewee.me/tags.html#作品" title="Works">作品</a>
 		<a href="/tools.html" title="Tools">工具</a>
-        <a href="http://lab.nodewee.me/"><span class=name>SoftLab</span></a>
+        <a href="http://lab.nodewee.me/">SoftLab</a>
         <a href="/flinks.html" title="Links">友链</a>
       </div>
       <div class="incard-text">
