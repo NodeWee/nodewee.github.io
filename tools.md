@@ -4,10 +4,13 @@ guid: tools
 title: '我的工具'
 ---
 
+&nbsp;
 
 > 在用的工具，作备忘索引，顺带分享和推荐  |  追求好用（功能、效率与美） 
 
----
+&nbsp;
+
+<hr />
   
 
 # Windows 工具包
@@ -44,18 +47,20 @@ title: '我的工具'
 * 【[Chrome](http://www.google.cn/intl/zh-CN/chrome/)】[2012~] 浏览器
 
  * 【[AdBlock](https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom)】[2014~] Chrome 广告屏蔽插件  
+ 
+ * 【SwitchyOmega】 Chrome 代理管理插件
 
 &nbsp;
 
 * 【[7-zip](http://www.7-zip.org/)】[2013~] 压缩解压  
 
-* 【[FileGee](http://cn.filegee.com/)】[201509~] 个人文件同步备份系统 
+* 【[FileGee](http://cn.filegee.com/)】[201509~] 个人文件同步备份系统  
 > 国人开发。功能丰富，多种备份方式，自动，且支持部分开放授权的网盘（例如百度盘）
 
-* 文件加密  【[AxCrypt](http://www.axantum.com/AxCrypt/)】[201509~]
+* 文件加密  【[AxCrypt](http://www.axantum.com/AxCrypt/)】[201509~]  
 > 开源，简单易用。[> 更多介绍](http://www.iplaysoft.com/axcrypt.html)
 
-* 【[F.lux](https://justgetflux.com/)】[201507~] 屏幕色温随时间自动调节，让眼睛舒服一点 [\]>](http://www.iplaysoft.com/flux.html "更多介绍")
+* 【[F.lux](https://justgetflux.com/)】[201507~] 屏幕色温随时间自动调节，让眼睛舒服一点 [> 更多介绍](http://www.iplaysoft.com/flux.html "更多介绍")
 
 * 【Mousotron】[201311~] 鼠标与键盘击键次数记录
 
@@ -80,7 +85,7 @@ title: '我的工具'
 
 * 【搜狗拼音输入法】 输入法
 
-* 【WhaleVPN】[201602~] iPhone 免费搭梯子
+* 【WhaleVPN】[201602~] iPhone 免费搭梯子  
 ><del>【FanWall】[201507~201601，开始收费]，【ArkVPN】[201512~201601，失效]</del> 
 
 
@@ -113,9 +118,9 @@ title: '我的工具'
 * 【XMind】[2014~] 思维导图  
 
 * 【[Sublime Text](http://www.sublimetext.com/)】[2014~] 通用文本与代码编辑
- * FileDiffs 插件，比较两份文本的不同
- * HTML-CSS-JS Prettify 插件，HTML/CSS/JS代码格式化
-&nbsp;  
+    * FileDiffs 插件，比较两份文本的不同
+    * HTML-CSS-JS Prettify 插件，HTML/CSS/JS代码格式化
+
 &nbsp;  
 
 * 【Adobe Illustrator】[2013~] 平面矢量设计 
@@ -150,7 +155,7 @@ title: '我的工具'
 
 * <del>【QQ阅读】[~201412] 电子书阅读-听书</del>  
 
-* 【[Pocket](https://getpocket.com/)】 文章稍后阅读与收藏
+* 【[Pocket](https://getpocket.com/)】 文章稍后阅读与收藏  
 > 若常阅读文章或资讯，墙裂推荐Pocket。电脑和手机端添加文章都非常方便，阅读样式统一，自动恢复到上次阅读的位置；加星和添加标签功能可以满足对零散文章的存档和基本管理需求；数据存储在云端，不怕丢，多平台访问。还支持语音朗读，可以让眼睛休息一会了。
 
 * 【知乎】，【知乎日报】，【TED】 资讯媒体
@@ -169,7 +174,7 @@ title: '我的工具'
 
 * 【QQ邮箱】，【Gmail】，【Inbox】[201603~] 邮件  
 
-* 腾讯【同步助手】[2012~]，【iCloud】 手机通讯录云端备份。
+* 腾讯【同步助手】[2012~]，【iCloud】 手机通讯录云端备份。  
 > <del>【Google账户同步】[201501~201504]</del>
 
 
@@ -179,7 +184,7 @@ title: '我的工具'
 
 # 记录/笔记/量化
 
-* 【[Evernote](http://evernote.com/)】 笔记/日志/GTD
+* 【[Evernote](http://evernote.com/)】 笔记/日志/GTD  
 > 笔记软件很多，个人习惯使用 Evernote，多平台，云存储，支持有格式的文字、图片和录音。编辑器比较弱，但记录方便。优势是OCR技术，可直接搜索到图片上的文字。——2015
 
 * 【iPhone】 计步
@@ -219,16 +224,16 @@ title: '我的工具'
 
 * 【腾讯微云】【Dropbox】【百度云】【360云盘】<del>【坚果云】[2015]</del> 云存储/同步盘  
 
-* 【[Blu·Tack（蓝丁胶)](http://s.click.taobao.com/rzZ6hlx)】 
+* 【[Blu·Tack（蓝丁胶)](http://s.click.taobao.com/rzZ6hlx)】   
 >固定和粘轻便的东西（比如海报）什么的太好用了，不留痕，重复利用。简直是生活和办公利器！我的工作区背景墙就是用它来帮忙布置，海报、明信片、徽章、小的塑料摆件统统上墙，固定后想再调整位置也毫无压力！——2015-10-10
 
 &nbsp;
 
 ---
-<code>update log:  
+<code><pre>update log:
 2016-04-08, 重新梳理分组，按使用场景例如操作系统，创作/开发
-2015-12-21,  
-2015-10-31,  
-2015-08-31,  
-2014-12-16,  
-</code>
+2015-12-21,
+2015-10-31,
+2015-08-31,
+2014-12-16,
+</pre></code>
