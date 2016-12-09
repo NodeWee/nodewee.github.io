@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="NodeWee, Huimin Wang, Qizi">
+    <script src="https://ss0.bdstatic.com/5a21bjqh_Q23odCf/static/superplus/js/lib/jquery-1.10.2_d88366fd.js"></script>
+    <title>LookUp Demo</title>
+    <style>
+    body {
+        max-width: 500px;
+        margin: 2em auto;
+        font-family: "Open Sans", Arial, "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif;
+        font-size: 1em;
+    }
+    
+    #header,
+    #main,
+    #footer {
+        clear: both;
+        display: block;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    .hidden {
+        display: none;
+    }
+    
+    #home {
+        color: #999;
+        width: 200px;
+        margin: auto;
+        text-align: center;
+        z-index: -1;
+    }
+    
+    #content {
+        display: inline;
+        padding: 0;
+        margin: 0;
+        width: 3900px;
+        height: 250px;
+        position: absolute;
+        z-index: 0;
+        font-size: 25px;
+    }
+    
+    .cntblk {
+        display: block;
+        width: 300px;
+        height: 240px;
+        margin: 0;
+        padding: 5px;
+        float: left;
+        border: 1px solid;
+        text-align: center;
+        word-break: break-all;
+        overflow: hidden;
+    }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+    </div>
+    <div id="main">
+        <div id="home">
+            <span id="do-unsupported" class="hidden">你的设备不支持倾角感测<br/></span>
+            <span id="dm-unsupported" class="hidden">你的设备不支持运动感测<br/></span>
+            <p id="tips" class="hidden">抬头看屏幕试试</p>
+            <p id="posxy">null</p>
+        </div>
+        <div id="content">
+            <div class="cntblk">
+                Look Up
+            </div>
+            <div class="cntblk">
+                ·· demo ··
+            </div>
+            <div class="cntblk">
+                向右转→_→
+            </div>
+            <div class="cntblk">
+                NodeWee
+            </div>
+            <div class="cntblk">
+                WHM
+            </div>
+            <div class="cntblk">
+                <img src="http://img3.douban.com/view/site/large/public/00f928d04fe7f15.jpg">
+                保罗的口袋
+            </div>
+            <div class="cntblk">
+                <img src="http://img3.douban.com/view/site/large/public/64d0a9d9050a662.jpg">
+                地球旅社
+            </div>
+            <div class="cntblk">
+                <embed src="http://player.youku.com/player.php/sid/XNzEwMDI2OTU2/v.swf" allowFullScreen="true" quality="high" width="285" height="228" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            </div>
+            <div class="cntblk">
+                <embed src="http://player.youku.com/player.php/sid/XOTM0OTc4MDA4/v.swf" allowFullScreen="true" quality="high" width="285" height="228" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>
+            </div>
+            <div class="cntblk">
+                透明度：<span id="textshowing" class="value">null</span>， 角度：
+                <span id="phoneangle" class="value">null</span>；
+                <br /> 左移：
+                <span id="move-x" class="value">null</span>， 上移：
+                <span id="move-y" class="value">null</span>；
+            </div>
+            <div class="cntblk">
+                <p>
+                    Coordinates: (
+                    <span id="beta" class="value">null</span>,
+                    <span id="gamma" class="value">null</span>,
+                    <span id="alpha" class="value">null</span>)
+                </p>
+                Position absolute? <span id="is-absolute" class="value">unavailable</span>
+                </p>
+                <p>
+                    Acceleration: (
+                    <span id="acceleration-x" class="value">null</span>,
+                    <span id="acceleration-y" class="value">null</span>,
+                    <span id="acceleration-z" class="value">null</span>) m/s
+                    <sup>2</sup>
+                </p>
+            </div>
+            <div class="cntblk">
+                <p>
+                    Acceleration including gravity: (
+                    <span id="acceleration-including-gravity-x" class="value">null</span>,
+                    <span id="acceleration-including-gravity-y" class="value">null</span>,
+                    <span id="acceleration-including-gravity-z" class="value">null</span>) m/s
+                    <sup>2</sup>
+                </p>
+                <p>
+                    Rotation rate: (
+                    <span id="rotation-rate-beta" class="value">null</span>,
+                    <span id="rotation-rate-gamma" class="value">null</span>,
+                    <span id="rotation-rate-alpha" class="value">null</span>)
+                </p>
+                <span id="interval" class="value">null</span>)
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+    </div>
+    <script type="text/javascript">
+    window.posx = screen.width / 2;
+    window.posy = 0;
+    if (!window.DeviceOrientationEvent) {
+        document.getElementById('do-unsupported').classList.remove('hidden');
+    } else {
+        window.addEventListener('deviceorientation', function(event) {
+            document.getElementById('beta').innerHTML = Math.round(event.beta);
+            document.getElementById('gamma').innerHTML = Math.round(event.gamma);
+            document.getElementById('alpha').innerHTML = Math.round(event.alpha);
+            document.getElementById('is-absolute').innerHTML = event.absolute ? "true" : "false";
+        });
+    }
+
+    if (!window.DeviceMotionEvent) {
+        document.getElementById('dm-unsupported').classList.remove('hidden');
+    } else {
+        window.addEventListener('devicemotion', function(event) {
+            document.getElementById('tips').classList.remove('hidden');
+
+            document.getElementById('acceleration-x').innerHTML = Math.round(event.acceleration.x);
+            document.getElementById('acceleration-y').innerHTML = Math.round(event.acceleration.y);
+            document.getElementById('acceleration-z').innerHTML = Math.round(event.acceleration.z);
+            document.getElementById('acceleration-including-gravity-x').innerHTML = Math.round(event.accelerationIncludingGravity.x);
+            document.getElementById('acceleration-including-gravity-y').innerHTML = Math.round(event.accelerationIncludingGravity.y);
+            document.getElementById('acceleration-including-gravity-z').innerHTML = Math.round(event.accelerationIncludingGravity.z);
+            document.getElementById('rotation-rate-beta').innerHTML = Math.round(event.rotationRate.beta);
+            document.getElementById('rotation-rate-gamma').innerHTML = Math.round(event.rotationRate.gamma);
+            document.getElementById('rotation-rate-alpha').innerHTML = Math.round(event.rotationRate.alpha);
+            document.getElementById('interval').innerHTML = event.interval;
+
+            var textshowing;
+            var phoneangle;
+            phoneangle = event.accelerationIncludingGravity.z * 9 + 90;
+            textshowing = (phoneangle - 30) / 180;
+            $("#content").fadeTo(0, textshowing);
+            $("#tips").fadeTo(0, 1-textshowing-0.3);
+            document.getElementById('phoneangle').innerHTML = Math.round(phoneangle);
+            document.getElementById('textshowing').innerHTML = Math.round(textshowing);
+
+            var movex;
+            var movey;
+            if (window.orientation == 90 || window.orientation == -90) {
+                movex = Math.round(event.rotationRate.alpha);
+            } else {
+                movex = Math.round(event.rotationRate.beta);
+            }
+            //movey = Math.round(event.rotationRate.gamma);
+            window.posx += movex;
+            //window.posy += movey;
+            document.getElementById('move-x').innerHTML = movex;
+            document.getElementById('move-y').innerHTML = movey;
+            $("#content").animate({
+                left: window.posx + 'px'
+            }, 0);
+            $("#content").animate({
+                top: window.posy + 'px'
+            }, 0);
+            document.getElementById('posxy').innerHTML = window.posx; //+ window.orientation; //window.posy;
+        });
+    }
+    </script>
+</body>
+
+</html>

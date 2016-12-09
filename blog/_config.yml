@@ -1,0 +1,35 @@
+markdown: kramdown
+pygments: true
+safe: true
+auto: true
+
+encoding: UTF-8
+lis: true
+permalink: /:title.html
+
+name: "NodeWee's Blog"
+author: "NodeWee"
+atom-baseurl: "http://blog.nodewee.me"
+disqus: "nodewee"
+
+navigations:
+  - title: 分类
+    eng_title: Category
+    class: fa fa-list-ul
+    href: /category.html
+  - title: 标签
+    eng_title: Tags
+    class: fa fa-tags
+    href: /tags.html
+  - title: 存档
+    eng_title: Archive
+    class: fa fa-archive
+    href: /archive.html
+  - title: 订阅
+    eng_title: RSS
+    class: fa fa-rss
+    href: /atom.xml
+  - title: 关于
+    eng_title: About
+    class: fa fa-user
+    href: http://nodewee.me

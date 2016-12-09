@@ -1,0 +1,28 @@
+
+body {
+	font-family:'微软雅黑', 'Times New Roman', Times, serif;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+div#header{
+	padding:1em;
+	font-weight: bold;
+}
+div#footer{
+	padding:1em;
+	color: gray;
+}
+
+div.items a{
+	padding: 0.3em 0.2em 0.2em 0.2em;
+	margin-left:0.5em;
+	margin-right: 0.5em;
+	text-decoration: none;
+	color: #66f;
+	text-shadow:1px 1px 2px #EEE;
+	border-bottom: 1px dotted;
+}
+div.items a:nth-child(2n+1){
+	color: #f66;
+}

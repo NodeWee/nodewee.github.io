@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+
+<html class="no-js no-browser" lang="zh-cn">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>二维码生成器（本地生成，不上传数据） - NodeWee</title>
+	<link href='styles.css' rel='stylesheet'>
+	<script src="jquery-1.10.2.js"></script>
+	<script src="jquery.qrcode.js"></script>
+	<script src="ff-range.js"></script>
+	<script src="scripts.js"></script>
+</head>
+
+<body>
+	<div id="container"></div>
+
+	<div class="control left">
+		<a id="banner" href="http://lab.nodewee.me/qrcode">jQuery.qrcode 0.6.0</a>
+		<hr/>
+		<label for="render">输出模式</label>
+		<select id="render">
+			<option value="canvas">Canvas</option>
+			<option value="image" selected="selected">Image</option>
+			<option value="div">DIV</option>
+		</select>
+		<hr/>
+		<label for="size">尺寸:</label>
+		<input id="size" type="range" value="400" min="100" max="1000" step="50" />
+		<label for="color">颜色</label>
+		<input id="color" type="color" value="#333333" />
+		<label for="bg-color">背景颜色</label>
+		<input id="bg-color" type="color" value="#ffffff" />
+		<label for="text">内容</label>
+		<textarea id="text">你的二维码内容</textarea>
+		<hr/>
+		<label for="minversion">MINVERSION:</label>
+		<input id="minversion" type="range" value="6" min="1" max="10" step="1" />
+		<label for="eclevel">容错</label>
+		<select id="eclevel">
+			<option value="L">L - Low (7%)</option>
+			<option value="M">M - Medium (15%)</option>
+			<option value="Q">Q - Quartile (25%)</option>
+			<option value="H" selected="selected">H - High (30%)</option>
+		</select>
+		<label for="quiet">边界留白:</label>
+		<input id="quiet" type="range" value="1" min="0" max="4" step="1" />
+		<label for="radius">圆角（不支持Opera）:</label>
+		<input id="radius" type="range" value="50" min="0" max="50" step="10" />
+		<!-- <hr/> -->
+		<!-- <a id="download" download="qrcode.png">DOWNLOAD</a> -->
+	</div>
+
+	<div class="control right">
+		<label for="mode">中心嵌入样式</label>
+		<select id="mode">
+			<option value="0">0 - Normal</option>
+			<option value="1">1 - Label-Strip</option>
+			<option value="2" selected="selected">2 - Label-Box</option>
+			<option value="3">3 - Image-Strip</option>
+			<option value="4">4 - Image-Box</option>
+		</select>
+		<hr/>
+		<label for="label">嵌入标签</label>
+		<input id="label" type="text" value="jQuery.qrcode" />
+		<label for="fontsize">标签尺寸:</label>
+		<input id="fontsize" type="range" value="11" min="1" max="20" step="1" />
+		<label for="font">字体名称</label>
+		<input id="font" type="text" value="Verdana" />
+		<label for="fontcolor">字体颜色:</label>
+		<input id="fontcolor" type="color" value="#ff9818" />
+		<hr/>
+		<label for="image">嵌入图片</label>
+		<input id="image" type="file" />
+		<label for="imagesize">图片尺寸:</label>
+		<input id="imagesize" type="range" value="13" min="1" max="30" step="1" />
+		<hr/><br /><hr/>
+		<label for="vcard-format">供参考的名片内容格式：</label>
+		<textarea id="vcard-format" style="height:180px;">BEGIN:VCARD
+VERSION:3.0
+N:姓名
+EMAIL:电子邮箱
+TEL:固定电话
+TEL;CELL:手机
+ADR:联系地址
+ORG:公司名称
+TITLE:职位
+URL:主页地址
+NOTE:备注
+END:VCARD</textarea>
+	</div>
+	<img id="img-buffer" src="dummy.png" />
+
+	<div style="text-align:center;clear:both; color:#55f;"><p>↑ 在图片上右键另存为</p></div>
+	<div><p class="footer">
+	本页面为静态网页，使用 jQuery 和 HTML5 技术，在本地电脑上生成二维码，不会上传数据到服务器端。<br/>
+	<i>现在生成二维码的网站很多，但不少网站会收集上传用户填写的二维码内容信息，隐私无法得到保护。<br/>便建立了这么一个本地二维码生成工具的页面方便自己使用，也顺便惠及他人。</i>
+</p></div>
+
+<div class="container">
+  <hr/>
+      <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'nodewee'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+<hr/>
+<div><p class="footer">本工具是基于<a href="http://sc.chinaz.com/jiaoben/130815236950.htm" target="_blank">站长之家脚本</a>改进而得，更多参考及源代码参见 <a href="https://github.com/NodeWee/nodewee_lab/qrcode/README.md">README</a><br />
+	Made by <a href="http://nodewee.me/" target="_blank">NodeWee</a>, host with <a href="http://pages.github.com/">GitHub Pages</a>.
+</p>
+</div>
+
+<div style="display:none;">
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-47411748-3', 'nodewee.me');
+  ga('send', 'pageview');
+
+</script>
+</div>
+
+</body>
+
+</html>
