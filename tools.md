@@ -11,7 +11,38 @@ title: '我的工具'
 &nbsp;
 
 <hr />
-  
+
+
+
+
+# 跨平台
+
+* 浏览器: Google Chrome [~]
+
+* 同步盘: Dropbox + 坚果云
+
+
+
+
+
+# macOS tools
+
+* Macbook Pro 13inch Retina [201606~]
+
+* 密码管理 MacPass + Dropbox [201606~]  
+
+* 下载 Folx Go [201606~]
+
+* 视频播放 mpv [201606~]
+
+* VMware Fusion 虚拟机 [201606~]
+
+
+
+
+
+
+
 
 # Windows 工具包
 
