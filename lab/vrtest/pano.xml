@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour start="node1">
-  <panorama hideabout="1" id="node1">
-    <input levelbias="0.400" height="525" leveltileurl="tiles/aa/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" width="525" levelbiashidpi="0.400" overlap="1" levelingpitch="0">
-      <level predecode="0" height="525" preload="0" width="525"/>
-      <level predecode="1" height="262" preload="1" width="262"/>
-      <preview strip="1" color="0x808080"/>
+<tour start="node3">
+  <panorama hideabout="1" id="node3">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="693" height="693" leveltileurl="tiles/bedroom 2016-12-23 16463500000/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelbias="0.400" levelingroll="0">
+      <level preload="0" width="693" height="693" predecode="0"/>
+      <level preload="1" width="346" height="346" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="-92.4462" fov="70" tilt="7.39852"/>
-      <min pan="-180" fov="5" tilt="-48.9644"/>
-      <max pan="180" fov="120" tilt="48.9644"/>
+      <start fov="70" pan="8.09057" tilt="-29.5137"/>
+      <min fov="5" pan="0" tilt="-90"/>
+      <max fov="120" pan="360" tilt="90"/>
     </view>
-    <userdata title="广场" latitude="" author="n0DE" datetime="" longitude="" source="" tags="" description="" copyright="" info="" comment=""/>
-    <hotspots height="0" width="180" wordwrap="1">
-      <label background="1" bordercolor="0x000000" textcolor="0x000000" backgroundalpha="1" border="1" borderradius="1" height="0" enabled="1" backgroundcolor="0xffffff" borderalpha="1" textalpha="1" width="180" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="2"/>
-      <hotspot pan="39.77" target="-178.554/4.51624/70" title="去桥上" skinid="ht_node" url="{node2}" description="" id="Point01" tilt="0.92"/>
+    <userdata description="" longitude="" datetime="" copyright="范钧" author="n0DE" tags="" comment="" source="" title="卧室1" info="" latitude=""/>
+    <hotspots width="180" wordwrap="1" height="0">
+      <label background="1" enabled="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" height="0" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="2" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+      <hotspot description="" target="-80.9717/6.08641/70" skinid="ht_node" url="{node4}" id="Point01" title="去户外" pan="-151.47" tilt="-22.76"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="0" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20"/>
-    <control lockedkeyboardzoom="0" lockedmouse="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" simulatemass="1" lockedwheel="0" lockedkeyboard="0" invertcontrol="1" hideabout="1" sensitivity="8" contextfullscreen="1"/>
+    <transition zoomspeed="2" zoomout="0" enabled="0" zoomoutpause="1" zoomfov="20" softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomin="0"/>
+    <control sensitivity="8" speedwheel="1" contextfullscreen="1" hideabout="1" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0"/>
   </panorama>
-  <panorama hideabout="1" id="node2">
-    <input levelbias="0.400" height="205" leveltileurl="tiles/bb/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingroll="0" width="205" levelbiashidpi="0.400" overlap="1" levelingpitch="0">
-      <level predecode="1" height="205" preload="1" width="205"/>
-      <preview strip="1" color="0x808080"/>
+  <panorama hideabout="1" id="node4">
+    <input leveltilesize="510" levelbiashidpi="0.400" width="525" height="525" leveltileurl="tiles/aa/cf_%c/l_%l/c_%x/tile_%y.jpg" overlap="1" levelingpitch="0" levelbias="0.400" levelingroll="0">
+      <level preload="0" width="525" height="525" predecode="0"/>
+      <level preload="1" width="262" height="262" predecode="1"/>
+      <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="0">
-      <start pan="92.4659" fov="70" tilt="-1.74968"/>
-      <min pan="-180" fov="5" tilt="-48.9406"/>
-      <max pan="180" fov="120" tilt="48.9406"/>
+      <start fov="70" pan="0" tilt="0"/>
+      <min fov="5" pan="-180" tilt="-48.9644"/>
+      <max fov="120" pan="180" tilt="48.9644"/>
     </view>
-    <userdata title="桥" latitude="" author="n0DE" datetime="" longitude="" source="" tags="" description="" copyright="" info="" comment=""/>
-    <hotspots height="0" width="180" wordwrap="1">
-      <label background="1" bordercolor="0x000000" textcolor="0x000000" backgroundalpha="1" border="1" borderradius="1" height="0" enabled="1" backgroundcolor="0xffffff" borderalpha="1" textalpha="1" width="180" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundalpha="0.2509803921568627" handcursor="1" backgroundcolor="0x0000ff" borderalpha="1" mode="2"/>
-      <hotspot pan="1.42" target="-84.9206/2.28756/70" title="回广场" skinid="ht_node" url="{node1}" description="" id="Point01" tilt="0.82"/>
+    <userdata description="" longitude="" datetime="" copyright="" author="n0DE" tags="" comment="" source="" title="广场" info="" latitude=""/>
+    <hotspots width="180" wordwrap="1" height="0">
+      <label background="1" enabled="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0x000000" border="1" borderradius="1" wordwrap="1" height="0" textcolor="0x000000" backgroundalpha="1" borderalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" mode="2" backgroundalpha="0.2509803921568627" borderalpha="1"/>
+      <hotspot description="" target="30.8858/-15.7752/70" skinid="ht_node" url="{node3}" id="Point01" title="回家" pan="122.58" tilt="1.59"/>
     </hotspots>
     <media/>
-    <transition softedge="0" zoomoutpause="1" blendtime="1" zoomout="0" enabled="0" zoomspeed="2" zoomin="0" blendcolor="0x000000" type="crossdissolve" zoomfov="20"/>
-    <control lockedkeyboardzoom="0" lockedmouse="0" dblclickfullscreen="0" invertwheel="0" speedwheel="1" simulatemass="1" lockedwheel="0" lockedkeyboard="0" invertcontrol="1" hideabout="1" sensitivity="8" contextfullscreen="1"/>
+    <transition zoomspeed="2" zoomout="0" enabled="0" zoomoutpause="1" zoomfov="20" softedge="0" blendcolor="0x000000" type="crossdissolve" blendtime="1" zoomin="0"/>
+    <control sensitivity="8" speedwheel="1" contextfullscreen="1" hideabout="1" invertcontrol="1" simulatemass="1" lockedmouse="0" lockedkeyboardzoom="0" invertwheel="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboard="0"/>
   </panorama>
 </tour>
