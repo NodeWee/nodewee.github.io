@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour start="node4">
+  <panorama hideabout="1" id="node4">
+    <input levelingroll="0" levelbias="0.400" levelingpitch="0" width="2560" overlap="1" levelbiashidpi="0.400" leveltileurl="tiles/qiulv161229/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2560" leveltilesize="510">
+      <level width="2560" predecode="0" height="2560" preload="0"/>
+      <level width="1280" predecode="0" height="1280" preload="0"/>
+      <level width="640" predecode="0" height="640" preload="0"/>
+      <level width="320" predecode="1" height="320" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="237">
+      <start pan="175.697" tilt="-13.4195" fov="70"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max pan="360" tilt="90" fov="120"/>
+    </view>
+    <userdata tags="" comment="" info="" longitude="117.283589" latitude="31.812117" description="" author="全景预览 by @nodewee" title="地球旅社" copyright="地球旅社当代艺术体验馆" datetime="2016-12-29" source="安徽省合肥市"/>
+    <hotspots wordwrap="1" width="180" height="0">
+      <label enabled="1" background="1" bordercolor="0x000000" textcolor="0x000000" backgroundcolor="0xffffff" wordwrap="1" width="180" borderradius="1" borderalpha="1" border="1" height="0" textalpha="1" backgroundalpha="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" handcursor="1" mode="2" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+    </hotspots>
+    <media/>
+    <transition enabled="0" zoomin="0" zoomfov="20" zoomoutpause="1" blendtime="1" type="crossdissolve" softedge="0" zoomspeed="2" blendcolor="0x000000" zoomout="0"/>
+    <control lockedkeyboard="0" invertcontrol="1" speedwheel="1" lockedmouse="0" contextfullscreen="1" invertwheel="0" lockedwheel="0" lockedkeyboardzoom="0" simulatemass="1" dblclickfullscreen="0" hideabout="1" sensitivity="8"/>
+  </panorama>
+</tour>
