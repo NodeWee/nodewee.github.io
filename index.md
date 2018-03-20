@@ -21,11 +21,10 @@ update: 2015-08-31, 2015-10-31,2016-12-10
       <a href="/lab">software lab</a>
       </div>
       <div class="incard-text">
-      <a href="http://weibo.com/nodewee" title="Weibo">微博</a>
       <a href="/contact.html" title="Contact">联络</a>
       <a href="/flinks.html" title="Links">友链</a>
     </div>
 
-      
+
     </div>
 </div>

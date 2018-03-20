@@ -5,5 +5,4 @@ title: '联络'
 ---
 
 
-
-![](./contact.png)
+weibo or qq mail: nodewee
