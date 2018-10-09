@@ -45,7 +45,7 @@ guid: index
   </ul>
   <div class="divider"></div>
   <ul class="listing main-listing">
-    <li class="listing-seperator">近期文章</i>
+    <li class="listing-seperator">近期文章</li>
   {% capture year %}{{ site.time | date:"%Y"}}{% endcapture %}
   {% for post in site.posts offset:1 %}
     {% capture y %}{{ post.date | date:"%Y"}}{% endcapture %}

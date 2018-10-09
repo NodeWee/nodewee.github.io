@@ -1,5 +1,4 @@
 markdown: kramdown
-pygments: true
 safe: true
 auto: true
 
@@ -9,7 +8,7 @@ permalink: /:title.html
 
 name: "本站碎碎念"
 author: "NodeWee"
-atom-baseurl: "http://nodewee.github.io/blog"
+atom-baseurl: "https://nodewee.github.io/blog"
 disqus: "nodewee"
 
 navigations:
@@ -20,8 +19,8 @@ navigations:
   - title: 标签
     eng_title: Tags
     class: fa fa-tags
-    href: /tags.html
+    href: https://nodewee.github.io/blog/tags.html
   - title: 存档
     eng_title: Archive
     class: fa fa-archive
-    href: /archive.html
+    href: https://nodewee.github.io/blog/archive.html
