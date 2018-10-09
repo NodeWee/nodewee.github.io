@@ -57,6 +57,6 @@ guid: index
       <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
   {% endfor %}
-    <li class="listing-seperator"><a href="/archive.html">往期文章</a></li>
+    <li class="listing-seperator"><a href="/blog/archive.html">往期文章</a></li>
   </ul>
 </div>

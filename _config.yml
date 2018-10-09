@@ -1,10 +1,27 @@
 markdown: kramdown
-permalink: /:year/:month/:day/:title.html
-name: "NodeWee"
-encoding: UTF-8
+safe: true
+auto: true
 
+encoding: UTF-8
+lis: true
+permalink: blog/:title.html
+
+name: "NODEWEE"
 author: "NodeWee"
-atom-baseurl: "https://nodewee.github.io"
+atom-baseurl: /blog
+
 disqus: "nodewee"
 
 navigations:
+  - title: 首页
+    eng_title: Home
+    class: fa fa-home
+    href: /blog
+  - title: 标签
+    eng_title: Tags
+    class: fa fa-tags
+    href: /blog/tags.html
+  - title: 存档
+    eng_title: Archive
+    class: fa fa-archive
+    href: /blog/archive.html
