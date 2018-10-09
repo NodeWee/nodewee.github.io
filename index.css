@@ -8,8 +8,7 @@
     font-family:"notoserifcjktc","Hiragino Sans GB",-apple-system,BlinkMacSystemFont,Helvetica Neue,PingFang SC,Microsoft YaHei,Source Han Sans SC,Noto Sans CJK SC,WenQuanYi Micro Hei,sans-serif;
 }
 
-body{
-    color: #ffffff;
+html, body{
     background: #2a2a2a url("./bg.png") 0 0 repeat;
 }
 
@@ -26,7 +25,7 @@ body{
 
 h1{
     color: #c9c9c9;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
