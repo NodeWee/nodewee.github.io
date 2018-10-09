@@ -1,11 +1,10 @@
 markdown: kramdown
-pygments: true
 permalink: /:year/:month/:day/:title.html
 name: "NodeWee"
 encoding: UTF-8
 
 author: "NodeWee"
-atom-baseurl: "http://nodewee.me"
+atom-baseurl: "https://nodewee.github.io"
 disqus: "nodewee"
 
 navigations:
