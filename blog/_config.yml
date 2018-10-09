@@ -4,7 +4,7 @@ auto: true
 
 encoding: UTF-8
 lis: true
-permalink: /:title.html
+permalink: /blog/:title.html
 
 name: "本站碎碎念"
 author: "NodeWee"
