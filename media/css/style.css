@@ -19,7 +19,7 @@ body {
   font-size: 14px;
   font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #555;
-  background-color: #f9f9f0; }
+  background-color: #f9f9f9; }
 
 ol, ul {
   list-style-position: inside; }
@@ -91,7 +91,7 @@ header {
     position: relative;
     top: 1em; }
     header nav span {
-      margin: .5em; }
+      margin: .2em; }
     header nav a, header nav #header h1 a, header #header h1 nav a, header nav article .title a, article .title header nav a, header nav article .meta .tags a, article .meta .tags header nav a, header nav article .divider a, article .divider header nav a {
       font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
       color: #ccc; }
@@ -192,6 +192,10 @@ footer {
 #tag_cloud {
   margin-bottom: 1em; }
 
+#tag_cloud a{
+  color:#996666;
+}
+
 .gist {
   font-size: 13px;
   line-height: 1.6; }
@@ -205,3 +209,29 @@ footer {
     color: #dd1144; }
   .like-wrapper .like-button.liked:hover {
     color: #999; }
+
+/* ---------------  以下部分已不用，留着作为备份 ------------- */
+a#support {
+  width:100%;
+  padding: 4px 10px 4px 10px;
+  text-align: center;
+  border: 1px solid #dd1144;
+  color:555;
+
+  -moz-border-radius: 3px;      /* Gecko browsers */
+  -webkit-border-radius: 3px;   /* Webkit browsers */
+  border-radius: 3px;            /* W3C syntax */
+}
+
+a#support:hover {
+  background: #dd1144;
+  color: #eee;
+}
+
+/* ---------------  以上部分已不用，留着作为备份 ------------- */
+
+img#support{
+  border: none;
+  padding: 3px 3px 3px 3px;
+}
+

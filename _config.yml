@@ -6,17 +6,14 @@ encoding: UTF-8
 lis: true
 permalink: blog/:title.html
 
-name: "NODEWEE"
+name: "本站碎碎念"
 author: "NodeWee"
-atom-baseurl: /blog
-
-disqus: "nodewee"
 
 navigations:
   - title: 首页
     eng_title: Home
     class: fa fa-home
-    href: /blog
+    href: /
   - title: 标签
     eng_title: Tags
     class: fa fa-tags
