@@ -30,7 +30,7 @@ h1{
     margin-bottom: 0.5em;
 }
 
-a{
+a, a *{
     color: #fc7777;
 }
 
@@ -52,4 +52,14 @@ hr{
     border-radius: 0.5em;
     background: #2e2e2e;
     margin: 1em;
+}
+
+.column .subitem span{
+    display: block;
+    float: left;
+    padding: 1px 5px 1px 5px;
+}
+
+.column .subitem span:before{
+    content:"·";
 }
