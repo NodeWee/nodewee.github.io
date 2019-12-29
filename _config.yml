@@ -1,10 +1,12 @@
 markdown: kramdown
+encoding: UTF-8
 safe: true
 auto: true
-
-encoding: UTF-8
+syntax_highlighter: true
+highlighter: rouge
 lis: true
 permalink: /:title.html
+
 
 name: "穿卡芦苇|NodeWee"
 author: "NodeWee"
