@@ -4,9 +4,9 @@ auto: true
 
 encoding: UTF-8
 lis: true
-permalink: blog/:title.html
+permalink: /:title.html
 
-name: "本站碎碎念"
+name: "穿卡芦苇|NodeWee"
 author: "NodeWee"
 
 navigations:
@@ -17,8 +17,8 @@ navigations:
   - title: 标签
     eng_title: Tags
     class: fa fa-tags
-    href: /blog/tags.html
+    href: /tags.html
   - title: 存档
     eng_title: Archive
     class: fa fa-archive
-    href: /blog/archive.html
+    href: /archive.html

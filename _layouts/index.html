@@ -1,14 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
+  <head>
 
 <head>
   <meta charset="UTF-8">
   <title>穿卡芦苇 | NODEWEE</title>
-  <link rel="stylesheet" type="text/css" href="./bulma_0.7.1.min.css">
-  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link rel="stylesheet" type="text/css" href="/media/bulma_0.7.1.min.css">
+  <link rel="stylesheet" type="text/css" href="/media/index.css">
 </head>
 
 <body>
+  <div id="content">
+  {{ content }}
+
   <section class="main">
     <div class="title">NODEWEE | 穿卡芦苇</div>
     <div class="columns">
@@ -16,14 +20,20 @@
         <h1>作品/项目</h1>
         <div class="subitem">
           <span><a href="https://hua.redesign.live" target="_blank" title="画的数字化高清图像">画の收集</a></span>
-          </div>
+          <span><a href="
+          https://filethings.net/" target="_blank" title="文件那些事兒">FileThings</a></span>
 
+          <span><a href="
+          https://toulan.fun/" target="_blank" title="toulan.fun">偷懒使我快乐！</a></span>
+
+          </div>
       </div>
+
+
       <div class="column">
         <h1>玩Lab</h1>
         <div class="subitem">
-        <span>FileSquirrel</span>
-        <span>P5Draw</span>
+        <span><a href="https://github.com/NodeWee/OpenExercise" target="_blank" title="分享練習的代碼">OpenExercise</a></span>
         <span><a href="/funlab/2048" target="_blank">多种版本的 2048 小游戏</a></span>
         <span><a href="/funlab/qrcode" target="_blank"><small>（本地化的）</small>二维码生成器</a></span>
         </div>
@@ -31,19 +41,19 @@
 
       <div class="column">
         <h1>本站</h1>
-        <p>© 2019 穿卡芦苇</p>
-        <p>由<a href="https://jekyllrb.com/" target="_blank"> Jekyll </a>驱动，
+        <p>© 2018~2019 穿卡芦苇</p>
+        <p><small>由<a href="https://jekyllrb.com/" target="_blank"> Jekyll </a>驱动，
           托管于<a href="https://pages.github.com/" target="_blank"> Github Pages </a></p>
-        <p>首页样式 by 自己手写，使用<a href="https://bulma.io" target="_blank"> Bulma </a>框架做页面布局。</p>
+        <p>首页样式 by 自己手写，使用<a href="https://bulma.io" target="_blank"> Bulma </a>框架做页面布局。</small></p>
       </div>
 
     </div>
 
     <div class="columns">
       <div class="column">
-        <h1>博文</h1>
-        <p><a href="/blog">本站碎碎念</a></p>
-        <p><a href="https://typing.redesign.live">提高打字输入效率</a></p>
+        <h1>文</h1>
+        <p><a href="archive.html">MyBlog</a></p>
+        <p><a href="https://toulan.fun/typing/">提高打字输入效率</a></p>
         <p></p>
       </div>
       <div class="column">
@@ -60,6 +70,8 @@
     </div>
 
   </section>
+  </div>
+
 
   <div style="display:none;">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -74,6 +86,5 @@
     
       </div>
 
-</body>
-
+  </body>
 </html>
