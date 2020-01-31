@@ -1,6 +1,5 @@
 ---
-layout: index
-guid: index
+layout: home
 ---
 
 

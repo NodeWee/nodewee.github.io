@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 * {
     margin:0;
     padding:0;
@@ -9,7 +10,11 @@
 }
 
 html, body{
-    background: #2a2a2a url("/media/bg.png") 0 0 repeat;
+    background: #2a2a2a url("/statics/bg.png") 0 0 repeat;
+}
+
+body{
+    font-size: 14px;
 }
 
 .main{
@@ -29,6 +34,15 @@ h1{
     font-weight: bold;
     margin-bottom: 0.5em;
 }
+
+.list, .list li, .list small {
+    color: #999999;
+}
+
+.list li:before {
+    content: "·";
+  }
+  
 
 a, a *{
     color: #fc7777;
@@ -60,6 +74,3 @@ hr{
     padding: 1px 5px 1px 5px;
 }
 
-.column .subitem span:before{
-    content:"·";
-}

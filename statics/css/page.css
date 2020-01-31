@@ -1,16 +1,9 @@
 @charset "UTF-8";
-/*------------------------------------
- * sext-vi
- *
- * @author linghua.zhang@me.com
- * @link http://lhzhang.com/
- * @update 2014-03-17
- *
- * |/ | (~ (~
- * |\.|._)._)
- * --------------------------------- */
-@import url(/media/fonts/telex-regular.css);
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
+/* 
+Author : nodewee (https://nodewee.githubio/)
+*/
+
 * {
   margin: 0;
   padding: 0; }
@@ -46,7 +39,24 @@ a, header #header h1 a, article .title a, article .meta .tags a, article .divide
   a:hover, header #header h1 a:hover, article .title a:hover, article .meta .tags a:hover, article .divider a:hover {
     color: #dd1144; }
 
-blockquote, pre code {
+
+blockquote {
+  color: #999;
+  line-height: 0.9em;
+  margin: 0 0 0 1em;
+  padding: 0 0 0 1em;
+  font-size: small;
+  border-left: 3px solid #eee;
+  overflow: auto; 
+}
+
+
+code {
+  background-color: #f2f2f2;
+  color: #555577;
+}
+
+pre code {
   background-color: #f8f8f8;
   padding: 0 1em;
   border: 1px dashed #eee !important;
@@ -64,6 +74,10 @@ code {
 
 h1, h2 {
   font-size: 1.4em; }
+
+article .post{
+  font-size: 1.1em;
+}
 
 time {
   font-family: "Ubuntu", monospace; }
@@ -137,7 +151,9 @@ article {
       color: #999999;
       padding: .25em; }
   article .post img {
-    max-width: 680px;
+    max-width: 650px;
+    /* width: auto; */
+    height: auto;
     display: block;
     margin: .5em auto; }
   article .comment {

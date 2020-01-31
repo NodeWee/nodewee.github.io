@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-cn" lang="zh-cn">
-  <head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="author" content="{{ site.author }}" />
-    {% if page.title %}
-    <title>{{ page.title }}</title>
-    {% else %}
-    <title>{{ site.name }}</title>
-    {% endif %}
-    <link rel="shortcut icon" href="/favicon.ico">
-    <link rel="stylesheet" href="/media/css/style.css">
-    <link rel="stylesheet" href="/media/css/github.css">
-    <link rel="stylesheet" href="/media/css/fontawesome.css">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="/media/js/highlight.pack.js"></script>
-    <script type="text/javascript">
-      hljs.initHighlightingOnLoad();
-    </script>
-  </head>
-  <body>
-      <div id="main" role="main">
-        <header>
-          <div id="header">
-            <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
-          </div>
-          <nav>
-            {% for nav in site.navigations %}
-            <span><a title="{{ nav.title }}" href="{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
-            {% endfor %}
-          </nav>
-        </header>
-        <div id="content">
-        {{ content }}
-        </div>
-        <footer>
-          <div>
-            {% assign first_post = site.posts | last %}
-            <p>&copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }}</p>
-            {% if page.guid == "index" %}
-                  <p>powered by <a href="http://jekyllrb.com/">Jekyll</a> | hosted on <a href="http://pages.github.com/">Github Pages</a> | themed by NodeWee & <a href="http://lhzhang.com">sext vi</a></p>
-            {% endif %}
-          </div>
-        </footer>
-      </div> <!-- main -->
 
-  <div style="display:none;">
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-137017300-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="{{ site.author }}" />
+  {% if page.title %}
+  <title>{{ page.title }}</title>
+  {% else %}
+  <title>{{ site.name }}</title>
+  {% endif %}
+  <link rel="shortcut icon" href="/favicon.ico">
+  {% if page.layout == 'home' %}
+  <link rel="stylesheet" href="/statics/css/home.css">
+  {% else %}
+  <link rel="stylesheet" href="/statics/css/page.css">
+  {% endif %}
 
-  gtag('config', 'UA-137017300-3');
-</script>
+  <link rel="stylesheet" href="/statics/css/fontawesome.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+    integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 
-  </div>
-  
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/styles/default.min.css">
 
-  </body>
+</head>
+
+<body>
+  <div id="main" role="main">
+    <header>
+      <div id="header">
+        <h1><a title="{{ site.name }}" class="" href="/">{{ site.name }}</a></h1>
+      </div>
+      <nav>
+        {% for nav in site.navigations %}
+        <span><a title="{{ nav.title }}" href="{{ nav.href }}"><i class="{{ nav.class }}"></i></a></span>
+        {% endfor %}
+      </nav>
+    </header>
+    <div id="content">
+      {{ content }}
+    </div>
+    <footer>
+      <div>
+        {% assign first_post = site.posts | last %}
+        <p>&copy; {{ first_post.date | date: "%Y" }} ~ {{ site.time | date: "%Y" }} {{ site.author }}</p>
+        {% if page.guid == "index" %}
+        <p>powered by <a href="http://jekyllrb.com/">Jekyll</a> | hosted on <a href="http://pages.github.com/">Github
+            Pages</a> | themed by NodeWee & <a href="http://lhzhang.com">sext vi</a></p>
+        {% endif %}
+      </div>
+    </footer>
+  </div> <!-- main -->
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-137017300-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-137017300-3');
+  </script>
+
+
+  <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.0/build/highlight.min.js"></script>
+</body>
+
 </html>
