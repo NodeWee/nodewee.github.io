@@ -12,7 +12,11 @@ body {
   font-size: 14px;
   font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
   color: #555;
-  background-color: #f9f9f9; }
+  background-color: #f9f9f9;
+  padding: 1em;
+  max-width: 780px;
+  margin: auto;
+}
 
 ol, ul {
   list-style-position: inside; }
@@ -83,7 +87,7 @@ time {
   font-family: "Ubuntu", monospace; }
 
 header {
-  width: 680px;
+  /* width: 680px; */
   margin: 0 auto;
   text-align: justify;
   margin: 3em auto; }
@@ -111,7 +115,7 @@ header {
       color: #ccc; }
 
 #content {
-  width: 680px;
+  /* width: 680px; */
   margin: 0 auto;
   line-height: 2em; }
   #content .main-listing {
@@ -192,7 +196,7 @@ article {
     margin-left: 1%; }
 
 footer {
-  width: 680px;
+  /* width: 680px; */
   margin: 0 auto;
   display: block;
   color: #909090;
