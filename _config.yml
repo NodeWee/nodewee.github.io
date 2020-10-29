@@ -7,7 +7,6 @@ highlighter: rouge
 lis: true
 permalink: /:title.html
 
-
 name: "穿卡芦苇/NODEWEE"
 author: "穿卡芦苇"
 
@@ -20,7 +19,3 @@ navigations:
     eng_title: Tags
     class: fa fa-tags
     href: /tags.html
-  - title: 存档
-    eng_title: Archive
-    class: fa fa-archive
-    href: /archive.html

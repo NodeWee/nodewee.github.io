@@ -1,5 +1,5 @@
 ---
-title: 存档
+title: 自言自语
 layout: page
 ---
 
