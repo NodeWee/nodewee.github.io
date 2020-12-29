@@ -2,6 +2,7 @@ markdown: kramdown
 encoding: UTF-8
 safe: true
 auto: true
+future: true
 syntax_highlighter: true
 highlighter: rouge
 lis: true
